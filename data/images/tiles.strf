@@ -21,7 +21,7 @@
  
    ;; next-id: 4327
   
-  ;; free/skipped ids (please use before any other): 101
+  ;; free/skipped ids (please use before any other): 101, 359
   ;; No group ids are currently skipped! Delete this line if any are and replace it with said ids...
  
   (tilegroup
@@ -390,7 +390,7 @@
       1008 1009 1010 1011
       1012 1013 1014 1015
       1016 1017 1018 1019
-	  3621 3622 3623 3624
+      3621 3622 3623 3624
       1723 1724 1725 1726
       1817 1013 1014 1820
       1819 1533 1534 1535
@@ -458,7 +458,7 @@
       1431 1432 1433 1434
       1435 1436 1437 1438
       1439 1440 1441 1442
-	  3923 3924 3925 3926
+      3923 3924 3925 3926
          0 1443 1444    0
       1445 1446 1447 1448
       1449 1450 1451 1452
@@ -662,16 +662,16 @@
   (tilegroup
     (name (_ "Block + Bonus"))
     (tiles
-	  27   28   29     47
-	  48   50   49    211
-	  77   51   52    212
-	  78   62   61    213
-	  3159 44   83   2947
-	  2948 84   103   128
-	  102  140  3161 3162
-	  104  105  3160  112
-	  3037 2943 2944 2945
-	  2946 1311 2153 0
+      27   28   29     47
+      48   50   49    211
+      77   51   52    212
+      78   62   61    213
+      3159 44   83   2947
+      2948 84   103   128
+      102  140  3161 3162
+      104  105  3160  112
+      3037 2943 2944 2945
+      2946 1311 2153 0
      
       57   58   2841 2842
       59   60   2843 2844
@@ -778,7 +778,7 @@
       175 176 177 178
       
       2136 2137 2138 2139
-	  4004 0    0    0
+      4004 0    0    0
       1711 1707 1701 1714
       1709 1710 1712 1715
       1708 0    1716 1704
@@ -1791,24 +1791,6 @@
     (image "tiles/darksnow/low.png")
   )
   (tile
-    (id 126)
-    (deprecated #t)
-    (images
-      "tiles/goal/exitbg.png"
-    )
-    (object-name "decal")
-    (object-data "(sprite \"images/decal/snow/exitbg.png\") (z-pos -100)")
-  )
-  (tile
-    (id 127)
-    (deprecated #t)
-    (images
-      "tiles/goal/exitfg.png"
-    )
-    (object-name "decal")
-    (object-data "(sprite \"images/decal/snow/exitfg.png\") (z-pos 200)")
-  )
-  (tile
     (id 128)
     (images
       "objects/bonus_block/full-0.png"
@@ -2166,7 +2148,7 @@
       2 3 2 0 3
       1 1 1 1 3
     )
-    (images "tiles/blocks/spikes-all.png")
+    (images "tiles/industrial/spikes.png")
   )
 
   (tile
@@ -2307,15 +2289,6 @@
       1 1 1
     )
     (image "tiles/blocks/rock_plate.png")
-  )
-
-  ; experimental unisolid tile
-  (tile
-    (id 359)
-    (images
-      "tiles/auxiliary/notile.png"
-    )
-    (unisolid #t)
   )
 
   (tile
@@ -3254,29 +3227,6 @@
     (image "tiles/signs/danger.png")
   )
 
-  (tiles
-    (width 7)
-    (height 7)
-    (ids
-      1632 1633 1634 1635 1636 1637 1638
-      1639 1640 1641 1642 1643 1644 1645
-      1646 1647 1648 1649 1650 1651 1652
-      1653 1654 1655 1656 1657 1658 1659
-      1660 1661 1662 1663 1664 1665 1666
-      1667 1668 1669 1670 1671 1672 1673
-      1674 1675 1676 1677 1678 1679 1680
-    )
-    (attributes
-      0 0 0 0 0 0 0
-      0 1 1 0 0 0 0
-      0 1 1 0 0 0 0
-      0 1 1 0 0 0 0
-      0 1 1 1 1 0 0
-      0 0 0 0 0 1 0
-      0 0 0 0 0 1 0
-    )
-    (image "tiles/forest/exit-tree.png")
-  )
   (tile
     (id 1700)
     (images
@@ -3898,23 +3848,6 @@
       1 1
     )
     (image "tiles/forest/pogonia/dangersign.png")
-  )
-  (tiles
-    (width 3)
-    (height 4)
-    (ids
-      1998 1999 2000
-      2023 2024 2025
-      2026 2027 2028
-      2029 2030 2031
-    )
-    (attributes
-      1 1 1
-      1 1 1
-      1 1 1
-      1 1 1
-    )
-    (image "tiles/forest/exit/outhouse.png")
   )
   (tiles
     (width 4)
@@ -4786,7 +4719,7 @@
          0    0    0    0    0    0
          0    0    0    0    0    0
     )
-    (image "tiles/blocks/industrial.png")
+    (image "tiles/industrial/blocks.png")
   )
   (tiles
     (width 4)
@@ -5342,7 +5275,7 @@
       1 1 1 1
 	  )
   )
-  
+
   (tiles
     (width 4)
     (height 26)
@@ -5683,7 +5616,7 @@
      4096 4096
      4096 4096
      4096 4096)
-    (image "tiles/test/walljump-test.png"))
+    (image "tiles/industrial/walljump.png"))
 
   (tiles
     (width  5)
