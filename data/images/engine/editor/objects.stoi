@@ -5,157 +5,123 @@
   (worldmap #f)
   (object
     (class "snowball")
-    (icon "images/creatures/snowball/snowball-1.png"))
+    (icon "images/creatures/snowball/snow/snowball-5.png"))
   (object
     (class "smartball")
-    (icon "images/creatures/snowball/smartball-1.png"))
+    (icon "images/creatures/snowball/smart/smartball-5.png"))
   (object
     (class "captainsnowball")
-    (icon "images/creatures/snowball/captain_left-1.png"))
+    (icon "images/creatures/snowball/captain/captain_left-5.png"))
   (object
     (class "bouncingsnowball")
-    (icon "images/creatures/bouncing_snowball/jump-3.png"))
-  (object
-    (class "flyingsnowball")
-    (icon "images/creatures/flying_snowball/flying_snowball-0.png"))
+    (icon "images/creatures/snowball/bounce/bs4.png"))
   (object
     (class "kamikazesnowball")
     (icon "images/creatures/snowball/kamikaze-editor.png"))
   (object
     (class "snowman")
-    (icon "images/creatures/snowman/snowman-5.png"))
-  (object
-    (class "spiky")
-    (icon "images/creatures/spiky/spiky-1.png"))
-  (object
-    (class "sspiky")
-    (icon "images/creatures/spiky/spiky_sleep-0.png"))
-  (object
-    (class "jumpy")
-    (icon "images/creatures/jumpy/snow_down-0.png"))
+    (icon "images/creatures/snowman/smwalk10.png"))
   (object
     (class "mriceblock")
-    (icon "images/creatures/iceblock/iceblock-1.png"))
+    (icon "images/creatures/iceblock/ice/iceblock-0.png"))
   (object
     (class "smartblock")
-    (icon "images/creatures/iceblock/smartblock-1.png"))
-  (object
-    (class "crystallo")
-    (icon "images/creatures/crystallo/left-2.png"))
-  (object
-    (class "scrystallo")
-    (icon "images/creatures/crystallo/sleep-0.png"))
-  (object
-    (class "rcrystallo")
-    (icon "images/creatures/crystallo/roof_crystallo-editor.png"))
-  (object
-    (class "crusher")
-    (icon "images/creatures/crusher/krush_ice_hit.png"))
-  (object
-    (class "stalactite")
-    (icon "images/creatures/stalactite/stalactite_ice.png"))
-  (object
-    (class "fish-harmless")
-    (icon "images/creatures/fish/ice/swim_orange-0.png"))
-  (object
-    (class "fish-swimming")
-    (icon "images/creatures/fish/ice/swim_blue-0.png"))
-  (object
-    (class "fish-chasing")
-    (icon "images/creatures/fish/ice/swim_green-0.png"))
-  (object
-    (class "fish-jumping")
-    (icon "images/creatures/fish/forest/jump_blue-3.png"))
-  (object
-    (class "viciousivy")
-    (icon "images/creatures/vicious_ivy/left-0.png"))
-  (object
-    (class "walkingleaf")
-    (icon "images/creatures/walkingleaf/left-0.png"))
-  (object
-    (class "leafshot")
-    (icon "images/creatures/leafshot/leafshot-1.png"))
-  (object
-    (class "mrtree")
-    (icon "images/creatures/mr_tree/mr_tree-8.png"))
-  (object
-    (class "stumpy")
-    (icon "images/creatures/mr_tree/stumpy-8.png"))
-  (object
-    (class "igel")
-    (icon "images/creatures/igel/walk-0.png"))
-  (object
-    (class "snail")
-    (icon "images/creatures/snail/left-0.png"))
-  (object
-    (class "owl")
-    (icon "images/creatures/owl/carry-0.png"))
+    (icon "images/creatures/iceblock/smart/smartblock-0.png"))
+ )
+
+ (objectgroup
+  (name (_"Forest Enemies"))
+  (worldmap #f)
   (object
     (class "mole")
-    (icon "images/creatures/mole/center.png"))
+    (icon "images/creatures/mole/m5.png"))
   (object
     (class "zeekling")
-    (icon "images/creatures/zeekling/zeekling-0.png"))
+    (icon "images/creatures/zeekling/left-0.png"))
   (object
-    (class "corrupted_granito")
-    (icon "images/creatures/granito/corrupted/idle_left-0.png"))
+    (class "snail")
+    (icon "images/creatures/snail/snail0.png"))
   (object
-    (class "corrupted_granito_big")
-    (icon "images/creatures/granito/corrupted/big/rock_mine-0.png"))
+    (class "mrtree")
+    (icon "images/creatures/mr_tree/walk-left-2.png"))
   (object
-    (class "darttrap")
-    (icon "images/creatures/darttrap/granito/empty_left.png"))
-(object
-    (class "root_sapling")
-    (icon "images/creatures/mole/corrupted/root_sapling-0.png"))  
-(object
-    (class "ghoul")
-    (icon "images/creatures/ghoul/g1.png"))
+    (class "stumpy")
+    (icon "images/creatures/mr_tree/small-left-1.png"))
   (object
-    (class "mrbomb")
-    (icon "images/creatures/mr_bomb/left-0.png"))
+    (class "viciousivy")
+    (icon "images/creatures/vicious_ivy/left-2.png"))
   (object
-    (class "goldbomb")
-    (icon "images/creatures/gold_bomb/left-0.png"))
+    (class "walkingleaf")
+    (icon "images/creatures/walkingleaf/left-2.png"))
+ )
+
+ (objectgroup
+  (name (_"Crystallo"))
+  (worldmap #f)
   (object
-    (class "haywire")
-    (icon "images/creatures/haywire/left-0.png"))
+    (class "crystallo")
+    (icon "images/creatures/crystallo/crystallo-left-4.png"))
   (object
-    (class "dive-mine")
-    (icon "images/creatures/dive_mine/left-0.png"))
+    (class "scrystallo")
+    (icon "images/creatures/crystallo/crystallo-sleeping.png"))
   (object
-    (class "short_fuse")
-    (icon "images/creatures/short_fuse/short_fuse-0.png"))
-  (object
-    (class "skydive")
-    (icon "images/creatures/skydive/skydive-0.png"))
-  (object
-    (class "flame")
-    (icon "images/creatures/flame/flame-0.png"))
-  (object
-    (class "willowisp")
-    (icon "images/creatures/willowisp/editor.png"))
+    (class "rcrystallo")
+    (icon "images/creatures/crystallo/roof/roof_crystallo-editor.png"))
+ )
+
+ (objectgroup
+  (name (_"Misc Enemies"))
+  (worldmap #f)
   (object
     (class "walking_candle")
     (icon "images/creatures/mr_candle/mrcandle-editor.png"))
   (object
-    (class "livefire")
-    (icon "images/creatures/livefire/f2.png"))
+    (class "flame")
+    (icon "images/creatures/flame/fire/flame-0.png"))
   (object
-    (class "livefire_asleep")
-    (icon "images/creatures/livefire/waking2.png"))
+    (class "short_fuse")
+    (icon "images/creatures/short_fuse/sf5.png"))
   (object
-    (class "livefire_dormant")
-    (icon "images/creatures/livefire/sleeping8.png"))
+    (class "mrbomb")
+    (icon "images/creatures/bomb/blue/bomb2.png"))
   (object
-    (class "toad")
-    (icon "images/creatures/toad/toad-idle-0.png"))
+    (class "haywire")
+    (icon "images/creatures/bomb/haywire/hw2.png"))
   (object
-    (class "tarantula")
-    (icon "images/creatures/tarantula/tarantula-0.png"))
+    (class "darttrap")
+    (icon "images/creatures/dart_trap/d-idle.png"))
   (object
-    (class "totem")
-    (icon "images/creatures/totem/walking1.png"))
+    (class "slowjumpingenemy")
+    (icon "images/creatures/skullyhop/silhouette/s-idle.png"))
+  (object
+    (class "owl")
+    (icon "images/creatures/owl/left-1.png"))
+  (object
+    (class "fish-jumping")
+    (icon "images/creatures/fish/f1.png"))
+  (object
+    (class "crusher")
+    (icon "images/creatures/crusher/ice/iceblock.png"))
+  (object
+    (class "jumpy")
+    (icon "images/creatures/jumpy/left-up.png"))
+  (object
+    (class "spiky")
+    (icon "images/creatures/spiky/spikywalk6.png"))
+  (object
+    (class "sspiky")
+    (icon "images/creatures/spiky/sleeping-left.png"))
+  (object
+    (class "flyingsnowball")
+    (icon "images/creatures/snowball/flying/left-0.png"))
+ )
+
+ (objectgroup
+  (name (_"Ghosts"))
+  (worldmap #f)
+  (object
+    (class "ghoul")
+    (icon "images/creatures/ghoul/g1.png"))
  )
 
  (objectgroup
@@ -166,21 +132,30 @@
     (icon "images/creatures/yeti/hudlife.png"))
   (object
     (class "ghosttree")
-    (icon "images/creatures/ghosttree/ghosttree.png"))
+    (icon "images/creatures/ghost_tree/hudlife.png"))
+  (object
+    (class "yeti_stalactite")
+    (icon "images/engine/editor/stalactite_ice_yeti.png"))
  )
 
  (objectgroup
   (name (_"Projectiles"))
   (worldmap #f)
   (object
-    (class "yeti_stalactite")
-    (icon "images/engine/editor/stalactite_ice_yeti.png"))
-  (object
     (class "dart")
-    (icon "images/creatures/darttrap/granito/root_dart_left.png"))
+    (icon "images/creatures/dart_trap/granito/root_dart_left.png"))
   (object
     (class "bigsnowball")
     (icon "images/objects/big_snowball/big_snowball.png"))
+  (object
+    (class "skydive")
+    (icon "images/creatures/skydive/skydive-0.png"))
+  (object
+    (class "stalactite")
+    (icon "images/creatures/stalactite/ice/icicle.png"))
+  (object
+    (class "mrrocket")
+    (icon "images/creatures/mr_rocket/flying-0.png"))
  )
 
  (objectgroup
@@ -199,9 +174,6 @@
     (class "brick")
     (icon "images/tiles/blocks/brick0.png"))
   (object
-    (class "heavy-brick")
-    (icon "images/tiles/blocks/brick3.png"))
-  (object
     (class "coin")
     (icon "images/objects/coin/coin-0.png"))
   (object
@@ -217,23 +189,11 @@
     (class "firefly")
     (icon "images/engine/editor/resetpoint.png"))
   (object
-    (class "granito")
-    (icon "images/creatures/granito/granito_stand-0.png"))
-  (object
-    (class "granito_big")
-    (icon "images/creatures/granito/big/granito_stand-0.png"))
-  (object
-    (class "granito_giant")
-    (icon "images/creatures/granito/giant/granito_sleep-0.png"))
-  (object
     (class "dispenser")
     (icon "images/creatures/dispenser/dropper.png"))
   (object
     (class "ispy")
     (icon "images/objects/ispy/i-idle.png"))
-;;(object
-;;  (class "path")
-;;  (icon "images/engine/editor/path.png"))
   (object
     (class "platform")
     (icon "images/engine/editor/flyingplatform.png"))
@@ -369,12 +329,6 @@
   (object
     (class "particles-ghosts")
     (icon "images/engine/editor/ghostparticles.png"))
-;;  +-- This should be disabled, as it probably won't support multiple textures
-;;  |   per config object.
-;;  v                               ~ Semphris
-  (object
-    (class "particles-custom")
-    (icon "images/engine/editor/particle.png"))
   (object
     (class "particles-custom-file")
     (icon "images/engine/editor/particle_file.png"))
