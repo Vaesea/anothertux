@@ -165,7 +165,7 @@ CorruptedGranito::unfreeze(bool melt)
 bool
 CorruptedGranito::is_freezable() const
 {
-  return m_type != GRANITO;
+  return m_type != SILHOUETTE;
 }
 
 GameObjectTypes
@@ -182,7 +182,7 @@ CorruptedGranito::get_default_sprite_name() const
 {
   switch (m_type)
   {
-    case GRANITO:
+    case SILHOUETTE:
       return "images/creatures/skullyhop/silhouette/silhouette_skullyhop.sprite";
     case SKULLYHOP:
       return "images/creatures/skullyhop/skullyhop.sprite";

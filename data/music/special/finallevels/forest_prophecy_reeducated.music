@@ -1,0 +1,5 @@
+(supertux-music
+  (file "forest_prophecy_reeducated.ogg")
+  (loop-begin 0)
+  (loop-at    -1)
+)

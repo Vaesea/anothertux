@@ -39,9 +39,9 @@ public:
 
   virtual void unfreeze(bool melt = true) override;
   virtual bool is_freezable() const override;
-  static std::string class_name() { return "skullyhop"; }
+  static std::string class_name() { return "slowjumpingbadguy"; }
   virtual std::string get_class_name() const override { return class_name(); }
-  static std::string display_name() { return _("Skullyhop"); }
+  static std::string display_name() { return _("Slow Jumping Badguy"); }
   virtual std::string get_display_name() const override { return display_name(); }
   virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(CorruptedGranito)); }
   virtual bool is_snipable() const override { return true; }
