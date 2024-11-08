@@ -42,7 +42,7 @@ World 9 is Savanna Island (Temporary name)
 
 World 10 is Crocodile Swamp (Nolok is a crocodile, I think) (CS Boss is Nolok, and it is the final boss. Nolok would be like a combination of the Ghost Tree, with the roots, and the Yeti, with how Nolok would work. Nolok would have 2 phases, both with 5 lives. Phase 1 would be like fighting an entire factory level and phase 2 would be like fighting the Yeti and the Ghost Tree (or more accurately, an invincible, invisible Root Sapling))
 
-World 11 is Bonus Planet (BP boss is Ghost Nolok, being a reskin of Nolok to make him look like he's from the Ghost Forest. The fight would be a harder Nolok fight)
+World 11 is Bonus Planet (BP boss is Ghost Nolok, being a reskin of Nolok to make him look like he's from the Ghost Forest. The fight would be a harder Nolok fight) (Clearly NSMB2)
 
 ## DISCLAIMERS
 
