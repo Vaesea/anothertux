@@ -55,7 +55,7 @@ protected:
 protected:
   enum StalactiteType {
     ICE,
-    ROCK
+    WOOD
   };
   enum StalactiteState {
     STALACTITE_HANGING,

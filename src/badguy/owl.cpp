@@ -37,7 +37,7 @@ const float ACTIVATION_DISTANCE = 128.0f;
 std::vector<std::string> Owl::s_portable_objects;
 
 Owl::Owl(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/owl/owl.sprite", LAYER_OBJECTS + 1),
+  BadGuy(reader, "images/creatures/miscbadguys/owl/owl.sprite", LAYER_OBJECTS + 1),
   carried_obj_name(),
   carried_object(nullptr)
 {

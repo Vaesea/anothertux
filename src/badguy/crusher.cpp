@@ -46,7 +46,7 @@ namespace {
 }
 
 Crusher::Crusher(const ReaderMapping& reader) :
-  MovingSprite(reader, "images/creatures/crusher/krush_ice.sprite", LAYER_OBJECTS, COLGROUP_MOVING_STATIC),
+  MovingSprite(reader, "images/creatures/miscbadguys/crusher/ice/small/icecrusher.sprite", LAYER_OBJECTS, COLGROUP_MOVING_STATIC),
   m_state(IDLE),
   m_ic_size(NORMAL),
   m_ic_type(ICE),
@@ -68,6 +68,7 @@ Crusher::Crusher(const ReaderMapping& reader) :
   after_sprite_set();
 }
 
+// TODO: Add Moss Crusher, make size actually work for ICE CRUSHER ONLY since, for some really odd reason, RC and MC don't have different sizes?
 GameObjectTypes
 Crusher::get_types() const
 {
@@ -88,11 +89,11 @@ Crusher::get_default_sprite_name() const
   switch (m_ic_type)
   {
     case ROCK:
-      return "images/creatures/crusher/" + size_prefix + "_rock.sprite";
+      return "images/creatures/miscbadguys/crusher/rock/rock_crusher.sprite";
     case CORRUPTED:
       return "images/creatures/crusher/corrupted/" + size_prefix + "_corrupt.sprite";
     default:
-      return "images/creatures/crusher/" + size_prefix + "_ice.sprite";
+      return "images/creatures/miscbadguys/crusher/ice/small/icecrusher.sprite";
   }
 }
 

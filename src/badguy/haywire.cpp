@@ -38,12 +38,12 @@ const float SKID_TIME = 0.3f;
 } // namespace
 
 Haywire::Haywire(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/haywire/haywire.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/miscbadguys/bomb/haywire/haywire.sprite", "left", "right"),
   m_is_exploding(false),
   time_until_explosion(0.0f),
   is_stunned(false),
   time_stunned(0.0f),
-  m_exploding_sprite(SpriteManager::current()->create("images/creatures/haywire/ticking_glow/ticking_glow.sprite")),
+  m_exploding_sprite(SpriteManager::current()->create("images/creatures/miscbadguys/bomb/haywire/ticking_glow/ticking_glow.sprite")),
   m_jumping(false),
   m_skid_timer(),
   m_last_player_direction(Direction::LEFT),

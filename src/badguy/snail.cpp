@@ -38,7 +38,7 @@ const float SNAIL_GUARD_TIME = 3.f; /**< Duration of corrupted snail guard state
 } // namespace
 
 Snail::Snail(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/snail/snail.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/forestbadguys/snail/snail.sprite", "left", "right"),
   state(STATE_NORMAL),
   kicked_delay_timer(),
   flat_timer(),
@@ -72,6 +72,7 @@ Snail::get_types() const
   };
 }
 
+// TODO: Tropical Snail
 std::string
 Snail::get_default_sprite_name() const
 {

@@ -21,7 +21,7 @@
 #include "util/reader_mapping.hpp"
 
 WalkingCandle::WalkingCandle(const ReaderMapping& reader)
-  : WalkingBadguy(reader, "images/creatures/mr_candle/mr-candle.sprite", "left", "right"),
+  : WalkingBadguy(reader, "images/creatures/miscbadguys/mr_candle/mr-candle.sprite", "left", "right"),
     m_lightcolor(1, 1, 1)
 {
   walk_speed = 80;

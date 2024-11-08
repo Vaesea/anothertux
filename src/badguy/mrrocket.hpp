@@ -25,7 +25,7 @@ class MrRocket : public BadGuy
 {
 public:
   MrRocket(const ReaderMapping& reader,
-                   const std::string& sprite_name = "images/creatures/mr_rocket/mr_rocket.sprite");
+                   const std::string& sprite_name = "images/creatures/miscbadguys/mr_rocket/mr_rocket.sprite");
 
   virtual void initialize() override;
   virtual void collision_solid(const CollisionHit& hit) override;

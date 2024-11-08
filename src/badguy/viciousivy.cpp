@@ -25,14 +25,14 @@
 #include "supertux/sector.hpp"
 
 ViciousIvy::ViciousIvy(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/vicious_ivy/vicious_ivy.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/forestbadguys/leaves/vicious_ivy/normal/vicious_ivy.sprite", "left", "right"),
   m_fall_speed()
 {
   parse_type(reader);
 }
 
 ViciousIvy::ViciousIvy(const Vector& pos, Direction d) :
-  WalkingBadguy(pos, d, "images/creatures/vicious_ivy/vicious_ivy.sprite", "left", "right"),
+  WalkingBadguy(pos, d, "images/creatures/forestbadguys/leaves/vicious_ivy/normal/vicious_ivy.sprite", "left", "right"),
   m_fall_speed()
 {
 }
@@ -42,7 +42,7 @@ ViciousIvy::get_types() const
 {
   return {
     { "normal", _("Normal") },
-    { "corrupted", _("Corrupted") }
+    { "ghost", _("Ghost") }
   };
 }
 
@@ -51,8 +51,8 @@ ViciousIvy::get_default_sprite_name() const
 {
   switch (m_type)
   {
-    case CORRUPTED:
-      return "images/creatures/vicious_ivy/corrupted/rotten_ivy.sprite";
+    case GHOST:
+      return "images/creatures/forestbadguys/leaves/vicious_ivy/ghost/rotten_ivy.sprite";
     default:
       return m_default_sprite_name;
   }
@@ -69,7 +69,7 @@ ViciousIvy::on_type_change(int old_type)
       walk_speed = 80.f;
       m_fall_speed = 35.f;
       break;
-    case CORRUPTED:
+    case GHOST:
       walk_speed = 70.f;
       m_fall_speed = 80.f;
       break;

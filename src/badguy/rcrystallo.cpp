@@ -1,4 +1,4 @@
-//  SuperTux
+//  SuperTux, unused, will be replaced with 0.6.3 version.
 //  Copyright (C) 2021 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@
 #include "util/reader_mapping.hpp"
 
 RCrystallo::RCrystallo(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/crystallo/crystallo.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/snowbadguys/crystallo/crystallo.sprite", "left", "right"),
   m_state(RCRYSTALLO_ROOF),
   m_radius()
 {
@@ -38,7 +38,7 @@ RCrystallo::RCrystallo(const ReaderMapping& reader) :
 
 RCrystallo::RCrystallo(const Vector& pos, const Vector& start_pos, float vel_x, std::unique_ptr<Sprite> sprite,
                        Direction dir, float radius, const std::string& script, bool fall) :
-  WalkingBadguy(pos, dir, "images/creatures/crystallo/crystallo.sprite", "left", "right"),
+  WalkingBadguy(pos, dir, "images/creatures/snowbadguys/crystallo/crystallo.sprite", "left", "right"),
   m_state(RCRYSTALLO_ROOF),
   m_radius(radius)
 {

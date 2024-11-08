@@ -1,4 +1,4 @@
-//  SuperTux - Badguy "Igel"
+//  SuperTux - Badguy "Igel", unused.
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //                2023 MatusGuy
 //

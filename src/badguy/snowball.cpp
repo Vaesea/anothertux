@@ -19,7 +19,7 @@
 #include "sprite/sprite.hpp"
 
 SnowBall::SnowBall(const ReaderMapping& reader)
-  : WalkingBadguy(reader, "images/creatures/snowball/snowball.sprite", "left", "right")
+  : WalkingBadguy(reader, "images/creatures/snowbadguys/snowball/normal/snowball.sprite", "left", "right")
 {
   parse_type(reader);
 
@@ -27,12 +27,13 @@ SnowBall::SnowBall(const ReaderMapping& reader)
 }
 
 SnowBall::SnowBall(const Vector& pos, Direction d, const std::string& script)
-  : WalkingBadguy(pos, d, "images/creatures/snowball/snowball.sprite", "left", "right")
+  : WalkingBadguy(pos, d, "images/creatures/snowbadguys/snowball/normal/snowball.sprite", "left", "right")
 {
   walk_speed = 80;
   m_dead_script = script;
 }
 
+  // TODO: BSOD Replacement (Mini Nolok?)
 GameObjectTypes
 SnowBall::get_types() const
 {
@@ -49,9 +50,9 @@ SnowBall::get_default_sprite_name() const
   switch (m_type)
   {
     case BUMPKIN:
-      return "images/creatures/pumpkin/bumpkin.sprite";
+      return "images/creatures/ghostbadguys/pumpkin/normal/bumpkin.sprite";
     case BSOD:
-      return "images/creatures/bsod/bsod.sprite";
+      return "images/creatures/swampbadguys/mini_nolok/mini_nolok.sprite";
     default:
       return m_default_sprite_name;
   }

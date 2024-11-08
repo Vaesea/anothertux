@@ -26,8 +26,10 @@ static const float FISH_JUMP_POWER = -600.f;
 static const float FISH_WAIT_TIME = 1.f;
 static const float FISH_BEACH_TIME = 5.f;
 
+// TODO: Add Flame Fish for Tropical Volcano levels
+
 FishJumping::FishJumping(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/fish/forest/jumpfish.sprite"),
+  BadGuy(reader, "images/creatures/miscbadguys/fish/jumping_fish/jump_fish.sprite"),
   m_wait_timer(),
   m_beached_timer(),
   m_stop_y(0)

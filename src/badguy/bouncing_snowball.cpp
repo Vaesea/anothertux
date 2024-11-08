@@ -25,7 +25,7 @@ static const float JUMPSPEED = -450;
 static const float BSNOWBALL_WALKSPEED = 80;
 
 BouncingSnowball::BouncingSnowball(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/bouncing_snowball/bouncing_snowball.sprite"),
+  BadGuy(reader, "images/creatures/snowbadguys/snowball/bouncing/bouncing_snowball.sprite"),
   m_x_speed(),
   m_turn_around_timer(),
   m_turn_around_counter()
@@ -35,7 +35,7 @@ BouncingSnowball::BouncingSnowball(const ReaderMapping& reader) :
 }
 
 BouncingSnowball::BouncingSnowball(const Vector& pos, Direction d, float x_vel) :
-  BadGuy(pos, d, "images/creatures/bouncing_snowball/bouncing_snowball.sprite"),
+  BadGuy(pos, d, "images/creatures/snowbadguys/snowball/bouncing/bouncing_snowball/bouncing_snowball.sprite"),
   m_x_speed(),
   m_turn_around_timer(),
   m_turn_around_counter()
@@ -105,7 +105,7 @@ BouncingSnowball::get_default_sprite_name() const
   switch (m_type)
   {
     case FATBAT:
-      return "images/creatures/fatbat/fatbat.sprite";
+      return "images/creatures/forestbadguys/fatbat/fatbat.sprite";
     default:
       return m_default_sprite_name;
   }

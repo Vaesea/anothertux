@@ -56,7 +56,7 @@ const float SNOW_EXPLOSIONS_VY = -200; /**< Speed of snowballs. */
 }
 
 Yeti::Yeti(const ReaderMapping& reader) :
-  Boss(reader, "images/creatures/yeti/yeti.sprite"),
+  Boss(reader, "images/creatures/boss/world1/yeti/yeti.sprite"),
   m_state(),
   m_state_timer(),
   m_safe_timer(),
@@ -71,7 +71,7 @@ Yeti::Yeti(const ReaderMapping& reader) :
   m_grabbed_tux(),
   m_jumped()
 {
-  reader.get("hud-icon", m_hud_icon, "images/creatures/yeti/hudlife.png");
+  reader.get("hud-icon", m_hud_icon, "images/creatures/boss/world1/yeti/hudlife.png");
   m_hud_head = Surface::from_file(m_hud_icon);
   SoundManager::current()->preload("sounds/yeti_gna.wav");
   SoundManager::current()->preload("sounds/yeti_roar.wav");

@@ -30,7 +30,7 @@ const float GLOBAL_SPEED_MULT = 0.8f; /**< The overall movement speed/rate. */
 }
 
 FlyingSnowBall::FlyingSnowBall(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/flying_snowball/flying_snowball.sprite"),
+  BadGuy(reader, "images/creatures/snowbadguys/snowball/flying/flying_snowball.sprite"),
   total_time_elapsed(),
   puff_timer()
 {

@@ -26,7 +26,7 @@
 #include "supertux/tile.hpp"
 
 SkyDive::SkyDive(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/skydive/skydive.sprite")
+  BadGuy(reader, "images/creatures/miscbadguys/owl/skydive/skydive.sprite")
 {
   SoundManager::current()->preload("sounds/explosion.wav");
   set_action("normal");

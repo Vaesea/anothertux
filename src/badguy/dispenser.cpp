@@ -441,6 +441,7 @@ Dispenser::get_types() const
   };
 }
 
+  // TODO: Will-O-Wisp Hive
 std::string
 Dispenser::get_default_sprite_name() const
 {

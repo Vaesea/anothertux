@@ -1,4 +1,4 @@
-//  SuperTux - Root Sapling Badguy
+//  SuperTux - Root Sapling Badguy, unused, will be replaced by new enemy named Crystal Sapling when it's sprites are done.
 //  Copyright (C) 2023 MatusGuy
 //
 //  This program is free software: you can redistribute it and/or modify

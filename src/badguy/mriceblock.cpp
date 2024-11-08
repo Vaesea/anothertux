@@ -1,4 +1,4 @@
-//  SuperTux
+//  SuperTux, does not have anything that needs to be changed.
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //                2023 Vankata453
 //

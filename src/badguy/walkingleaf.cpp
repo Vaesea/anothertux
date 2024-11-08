@@ -20,7 +20,7 @@
 #include "supertux/sector.hpp"
 
 WalkingLeaf::WalkingLeaf(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/walkingleaf/walkingleaf.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/forestbadguys/leaves/walking_leaf/normal/walking_leaf.sprite", "left", "right"),
   m_fall_speed()
 {
   parse_type(reader);
@@ -33,7 +33,7 @@ WalkingLeaf::get_types() const
 {
   return {
     { "normal", _("Normal") },
-    { "corrupted", _("Corrupted") }
+    { "ghost", _("Ghost") }
   };
 }
 
@@ -42,8 +42,8 @@ WalkingLeaf::get_default_sprite_name() const
 {
   switch (m_type)
   {
-    case CORRUPTED:
-      return "images/creatures/walkingleaf/corrupted/rotten_leaf.sprite";
+    case GHOST:
+      return "images/creatures/forestbadguys/leaves/walking_leaf/ghost/rotten_leaf.sprite";
     default:
       return m_default_sprite_name;
   }
@@ -60,7 +60,7 @@ WalkingLeaf::on_type_change(int old_type)
       walk_speed = 60.f;
       m_fall_speed = 35.f;
       break;
-    case CORRUPTED:
+    case GHOST:
       walk_speed = 55.f;
       m_fall_speed = 80.f;
       break;

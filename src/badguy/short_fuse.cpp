@@ -26,7 +26,7 @@
 #include "util/reader_mapping.hpp"
 
 ShortFuse::ShortFuse(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/short_fuse/short_fuse.sprite", "left", "right")
+  WalkingBadguy(reader, "images/creatures/miscbadguys/bomb/short_fuse/short_fuse.sprite", "left", "right")
 {
   walk_speed = 100;
   set_ledge_behavior(LedgeBehavior::SMART);

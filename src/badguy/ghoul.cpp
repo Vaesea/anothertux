@@ -27,7 +27,7 @@ static const float FLYSPEED = 80.0f; /**< Speed in px per second. */
 static const float TRACK_RANGE = 2500.0f; /**< At what distance to start tracking the player. */
 
 Ghoul::Ghoul(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/ghoul/ghoul.sprite"),
+  BadGuy(reader, "images/creatures/ghostbadguys/ghoul/ghoul.sprite"),
   PathObject(),
   m_mystate(STATE_IDLE),
   m_flyspeed(),

@@ -1,4 +1,4 @@
-//  MoleRock - Rock thrown by "Mole" Badguy
+//  MoleRock - Rock thrown by "Mole" Badguy. Why is this seperate from Mole?
 //  Copyright (C) 2006 Christoph Sommer <christoph.sommer@2006.expires.deltadevelopment.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@
 #include "sprite/sprite.hpp"
 
 MoleRock::MoleRock(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/mole/mole_rock.sprite", LAYER_TILES - 2),
+  BadGuy(reader, "images/creatures/forestbadguys/mole/mole_rock.sprite", LAYER_TILES - 2),
   parent(nullptr),
   initial_velocity(Vector(0, -400))
 {

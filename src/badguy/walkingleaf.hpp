@@ -48,7 +48,7 @@ protected:
 protected:
   enum Type {
     NORMAL,
-    CORRUPTED
+    GHOST
   };
 
 private:

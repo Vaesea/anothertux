@@ -84,7 +84,7 @@ Boss::get_settings()
 {
   ObjectSettings result = BadGuy::get_settings();
 
-  result.add_text("hud-icon", &m_hud_icon, "hud-icon", "images/creatures/yeti/hudlife.png", OPTION_HIDDEN);
+  result.add_text("hud-icon", &m_hud_icon, "hud-icon", "images/creatures/boss/world1/yeti/hudlife.png", OPTION_HIDDEN);
   result.add_int(_("Lives"), &m_lives, "lives", DEFAULT_LIVES);
   
   /* l10n: Pinch Mode refers to a particular boss mode that gets 

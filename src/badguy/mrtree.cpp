@@ -34,7 +34,7 @@ static const float VICIOUSIVY_HEIGHT = 32;
 static const float VICIOUSIVY_Y_OFFSET = 24;
 
 MrTree::MrTree(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/mr_tree/mr_tree.sprite","left","right", LAYER_OBJECTS,
+  WalkingBadguy(reader, "images/creatures/forestbadguys/mr_tree/mr_tree.sprite","left","right", LAYER_OBJECTS,
                 "images/objects/lightmap_light/lightmap_light-large.sprite")
 {
   parse_type(reader);

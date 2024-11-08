@@ -26,42 +26,34 @@ static const float JUMPY_MID_TOLERANCE = 4;
 static const float JUMPY_LOW_TOLERANCE = 2;
 
 Jumpy::Jumpy(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/jumpy/snowjumpy.sprite"),
+  BadGuy(reader, "images/creatures/miscbadguys/jumpy/metal/jumpy.sprite"),
   pos_groundhit(0.0f, 0.0f),
   groundhit_pos_set(false)
 {
   parse_type(reader);
 
   set_action(m_dir, "middle");
-  // TODO: Create a suitable sound for this...
-  // SoundManager::current()->preload("sounds/skid.wav");
+  SoundManager::current()->preload("sounds/jumpy.ogg"); // Sound plays everytime Jumpy jumps.
 }
 
+// TODO: Create Volcano Jumpy for Tropical Volcano levels.
 GameObjectTypes
 Jumpy::get_types() const
 {
   return {
-    { "snow", _("Snow") },
-    { "wooden", _("Wooden") },
-    { "corrupted", _("Corrupted") },
-    { "metal", _("Metal") },
-    { "bag", _("Bag") }
+    { "normal", _("Normal") },
+    { "volcano", _("Volcano") },
   };
 }
 
+// TODO: Create Volcano Jumpy for Tropical Volcano levels.
 std::string
 Jumpy::get_default_sprite_name() const
 {
   switch (m_type)
   {
-    case WOODEN:
+    case VOLCANO:
       return "images/creatures/jumpy/woodjumpy.sprite";
-    case CORRUPTED:
-      return "images/creatures/jumpy/corruptjumpy.sprite";
-    case METAL:
-      return "images/creatures/jumpy/metaljumpy.sprite";
-    case BAG:
-      return "images/creatures/bag/bag.sprite";
     default:
       return m_default_sprite_name;
   }
@@ -89,8 +81,7 @@ Jumpy::hit(const CollisionHit& chit)
     groundhit_pos_set = true;
 
     m_physic.set_velocity_y((m_frozen || get_state() != STATE_ACTIVE) ? 0 : JUMPYSPEED);
-    // TODO: Create a suitable sound for this...
-    // SoundManager::current()->play("sounds/skid.wav", get_pos());
+    SoundManager::current()->play("sounds/jumpy.ogg", get_pos()); // I only uncommented the line and changed the sound, but I swear there has to be a better way to do this...
     update_on_ground_flag(chit);
   } else if (chit.top) {
     m_physic.set_velocity_y(0);

@@ -31,7 +31,7 @@
 #include "util/reader_mapping.hpp"
 
 MrBomb::MrBomb(const ReaderMapping& reader) :
-  WalkingBadguy(reader, "images/creatures/mr_bomb/mr_bomb.sprite", "left", "right"),
+  WalkingBadguy(reader, "images/creatures/miscbadguys/bomb/blue/mr_bomb.sprite", "left", "right"),
   m_state(MB_STATE_NORMAL),
   m_ticking_sound(),
   m_exploding_sprite(SpriteManager::current()->create("images/creatures/mr_bomb/ticking_glow/ticking_glow.sprite"))

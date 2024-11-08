@@ -19,7 +19,7 @@
 #include "sprite/sprite.hpp"
 
 SmartBall::SmartBall(const ReaderMapping& reader)
-  : WalkingBadguy(reader, "images/creatures/snowball/smart-snowball.sprite", "left", "right")
+  : WalkingBadguy(reader, "images/creatures/snowbadguys/snowball/smart/smartball.sprite", "left", "right")
 {
   parse_type(reader);
 
@@ -42,7 +42,7 @@ SmartBall::get_default_sprite_name() const
   switch (m_type)
   {
     case PUMPKIN:
-      return "images/creatures/pumpkin/pumpkin.sprite";
+      return "images/creatures/ghostbadguys/pumpkin/smart/pumpkin.sprite";
     default:
       return m_default_sprite_name;
   }

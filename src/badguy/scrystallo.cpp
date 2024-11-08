@@ -1,4 +1,4 @@
-//  SuperTux
+//  SuperTux, unused
 //  Copyright (C) 2021 Daniel Ward <weluvgoatz@gmail.com>
 //
 //  This program is free software: you can redistribute it and/or modify

@@ -21,12 +21,12 @@
 
 class SoundSource;
 
-/** Badguy "Dart" - Sharp projectile commonly shot from DartTrap */
+/** Badguy "Dart" - Sharp projectile commonly shot from DartTrap, tropical dart needed so Corrupted Dart can be replaced */
 class Dart final : public BadGuy
 {
 public:
   Dart(const ReaderMapping& reader);
-  Dart(const Vector& pos, Direction d, const BadGuy* parent, const std::string& sprite = "images/creatures/darttrap/granito/root_dart.sprite");
+  Dart(const Vector& pos, Direction d, const BadGuy* parent, const std::string& sprite = "images/creatures/dart_trap/dart/tropical_dart.sprite");
 
   virtual void initialize() override;
   virtual void activate() override;

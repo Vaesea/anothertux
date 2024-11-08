@@ -1,4 +1,4 @@
-//  SuperTux
+//  SuperTux, unused. New Kugelblitz will be a stalactite. This Kugelblitz is a terrible enemy and it's really hard to deal with in-game!
 //  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
 //
 //  This program is free software: you can redistribute it and/or modify
@@ -36,7 +36,7 @@ const int RAND_SPEED = 150;
 } // namespace
 
 Kugelblitz::Kugelblitz(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/kugelblitz/kugelblitz.sprite"),
+  BadGuy(reader, "images/creatures/volcanobadguys/kugelblitz/kugelblitz.sprite"),
   pos_groundhit(0.0f, 0.0f),
   groundhit_pos_set(false),
   dying(),

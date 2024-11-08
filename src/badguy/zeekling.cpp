@@ -41,7 +41,7 @@ static const float MAX_DETECT_RANGE_X = 32.f * 15.f;
 static const float CATCH_OFFSET = -10.f;
 
 Zeekling::Zeekling(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/zeekling/zeekling.sprite"),
+  BadGuy(reader, "images/creatures/forestbadguys/zeekling/zeekling.sprite"),
   m_catch_pos(0.f),
   m_timer(),
   m_state(FLYING)

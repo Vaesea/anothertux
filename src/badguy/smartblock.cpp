@@ -17,7 +17,7 @@
 #include "badguy/smartblock.hpp"
 
 SmartBlock::SmartBlock(const ReaderMapping& reader) :
-  MrIceBlock(reader, "images/creatures/iceblock/smart_block.sprite")
+  MrIceBlock(reader, "images/creatures/snowbadguys/iceblock/smart/smartblock.sprite")
 {
   set_ledge_behavior(LedgeBehavior::SMART);
 }

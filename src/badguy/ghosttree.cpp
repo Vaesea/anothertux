@@ -38,14 +38,14 @@ static const Vector SUCK_TARGET_OFFSET = Vector(-16,-16);
 static const float SUCK_TARGET_SPREAD = 8;
 
 GhostTree::GhostTree(const ReaderMapping& mapping) :
-  Boss(mapping, "images/creatures/ghosttree/ghosttree.sprite", LAYER_OBJECTS - 10),
+  Boss(mapping, "images/creatures/boss/world2/ghost_tree/ghosttree.sprite", LAYER_OBJECTS - 10),
   mystate(STATE_IDLE),
   willowisp_timer(),
   willo_spawn_y(0),
   willo_radius(200),
   willo_speed(1.8f),
   willo_color(0),
-  glow_sprite(SpriteManager::current()->create("images/creatures/ghosttree/ghosttree-glow.sprite")),
+  glow_sprite(SpriteManager::current()->create("images/creatures/boss/world2/ghost_tree/ghosttree-glow.sprite")),
   colorchange_timer(),
   suck_timer(),
   root_timer(),
@@ -55,7 +55,7 @@ GhostTree::GhostTree(const ReaderMapping& mapping) :
   suck_lantern(nullptr),
   willowisps()
 {
-  mapping.get("hud-icon", m_hud_icon, "images/creatures/ghosttree/hudlife.png");
+  mapping.get("hud-icon", m_hud_icon, "images/creatures/boss/world2/ghost_tree/hudlife.png");
   m_hud_head = Surface::from_file(m_hud_icon);
 
   set_colgroup_active(COLGROUP_TOUCHABLE);

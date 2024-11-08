@@ -1,4 +1,4 @@
-//  SuperTux
+//  SuperTux, unused
 //  Copyright (C) 2023 MatusGuy
 //
 //  This program is free software: you can redistribute it and/or modify
