@@ -52,11 +52,8 @@ private:
 
 private:
   enum Type {
-    SNOW,
-    WOODEN,
-    CORRUPTED,
-    METAL,
-    BAG
+    NORMAL,
+    VOLCANO
   };
 
 private:

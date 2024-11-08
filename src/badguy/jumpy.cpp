@@ -33,7 +33,7 @@ Jumpy::Jumpy(const ReaderMapping& reader) :
   parse_type(reader);
 
   set_action(m_dir, "middle");
-  SoundManager::current()->preload("sounds/jumpy.ogg"); // Sound plays everytime Jumpy jumps.
+// SoundManager::current()->preload("sounds/jumpy.ogg"); // Sound plays everytime Jumpy jumps.
 }
 
 // TODO: Create Volcano Jumpy for Tropical Volcano levels.
@@ -81,7 +81,7 @@ Jumpy::hit(const CollisionHit& chit)
     groundhit_pos_set = true;
 
     m_physic.set_velocity_y((m_frozen || get_state() != STATE_ACTIVE) ? 0 : JUMPYSPEED);
-    SoundManager::current()->play("sounds/jumpy.ogg", get_pos()); // I only uncommented the line and changed the sound, but I swear there has to be a better way to do this...
+// SoundManager::current()->play("sounds/jumpy.ogg", get_pos());
     update_on_ground_flag(chit);
   } else if (chit.top) {
     m_physic.set_velocity_y(0);
