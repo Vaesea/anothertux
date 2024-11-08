@@ -100,33 +100,6 @@ jobs:
         run: |
           "./$Env:BUILD_TYPE/run_tests.exe"
 
-      - name: Package MSI Installer
-        if: matrix.build_type != 'Debug' && matrix.glbinding == 'OFF'
-        shell: pwsh
-        working-directory: build
-        env:
-          BUILD_TYPE: ${{ matrix.build_type }}
-        run: |
-          cpack -C $Env:BUILD_TYPE
-          if ($LASTEXITCODE -ne 0)
-          {
-            $code = $LASTEXITCODE
-            type ./_CPack_Packages/win64/WIX/wix.log
-            exit $code
-          }
-          else
-          {
-            mkdir upload
-            mv *.msi upload/
-          }
-
-      - name: Upload MSI Installer
-        uses: actions/upload-artifact@v4
-        with:
-          name: "windows-${{ matrix.arch }}-${{ matrix.build_type }}${{ matrix.glbinding == 'ON' && '-glbinding' || '' }}-installer"
-          path: build/upload/*.msi
-          if-no-files-found: ignore
-
       - name: Package Portable Archive
         working-directory: build
         env:
@@ -134,15 +107,6 @@ jobs:
         run: |
           mkdir -Force SuperTux-${{ github.sha }}-portable
           cmake --install . --config $Env:BUILD_TYPE --prefix .\SuperTux-${{ github.sha }}-portable
-
-          # Because github puts assets in zips, if you upload a zip,
-          # it will upload another zip. I have disabled this code because
-          # of that, but in case you wanted to know how to generate a portable release,
-          # here it is.
-          <#
-          cpack -C $Env:BUILD_TYPE -G ZIP
-          mv *.zip SuperTux-${{ github.sha }}-portable/
-          #>
 
       - name: Upload Portable Package
         if: matrix.build_type != 'Debug' && matrix.glbinding == 'OFF'
