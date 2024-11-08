@@ -10,7 +10,7 @@ Some enemies being removed to make this mod smaller, as one of the main things a
 
 Things are more organized here too because I prefer everything to be organized, although it does take more clicks to get to things.
 
-A lot of songs are removed because some songs are now for cutscenes or for all worlds, like how New Super Mario Bros Wii reused some of it's songs. Night.ogg should be an all-world thingy anythings.
+A lot of songs are removed because some songs are now for cutscenes or for all worlds, like how New Super Mario Bros Wii reused some of it's songs. Night.ogg should be an all-world thingy anyways.
 
 There are 10 main worlds, which means there are roughly 100 main levels planned. May seem like too much, but normal SuperTux seems to have been more quanitity-over-quality before 0.7.0.
 
