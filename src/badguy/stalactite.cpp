@@ -126,7 +126,7 @@ Stalactite::collision_badguy(BadGuy& other, const CollisionHit& hit)
 
   if (state != STALACTITE_FALLING) return BadGuy::collision_badguy(other, hit);
 
-  if (other.is_freezable() && m_type != StalactiteType::ROCK) {
+  if (other.is_freezable() && m_type != StalactiteType::WOOD) {
     other.freeze();
   } else {
     other.kill_fall();
@@ -138,7 +138,7 @@ Stalactite::collision_badguy(BadGuy& other, const CollisionHit& hit)
 HitResponse
 Stalactite::collision_bullet(Bullet& bullet, const CollisionHit& hit)
 {
-  if (m_type == StalactiteType::ROCK)
+  if (m_type == StalactiteType::WOOD)
   {
     bullet.ricochet(*this, hit);
   }
