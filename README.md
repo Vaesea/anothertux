@@ -1,12 +1,12 @@
-# VAESEATUX
+# ANOTHERTUX
 
-VaeseaTux is a mod of a SuperTux nightly build in between 0.6.3 and 0.7.0. Jump and run through worlds you've seen before, along with some new worlds, with the cost of levels per world.
+AnotherTux is a mod of a SuperTux nightly build in between 0.6.3 and 0.7.0. Jump and run through worlds you've seen before, along with some new worlds, with the cost of levels per world.
 
 ## The Main Stuff
 
 The art is reverted to 0.6.3.
 
-Some enemies being removed to make this mod smaller, as one of the main things about this mod is, at least before Tropical Paradise, it needs to be under 150 MB. It hasn't yet reached that.
+Some enemies being removed to make this mod smaller, as one of the main things about this mod is, at least before World 3, it needs to be under 150 MB. It hasn't yet reached that.
 
 Things are more organized here too because I prefer everything to be organized, although it does take more clicks to get to things.
 
@@ -24,21 +24,23 @@ This mod's levels will be more simple, and they will be similar to New Super Mar
 
 World 1 is Icy Island. (II Castle will be based on the ice mechanic and the sliding mechanic and will be named Slippery Fortress) (II Boss is Yeti. He will not have his Pinch Mode and he will just be 3 lives)
 
-World 2 is Rooted Forest and Ghost Forest. (RF Castle will be based on the walljump mechanic and will be named Overgrown Tower) (GF Castle will be based on the lanterns and will be named Lantern Temple) (RF Boss is Spooky Tree) (GF Boss is Ghost Tree)
+Mid-Way Level 1 (World 1.5 technically) would be a level based around... Actually I'm not sure.
 
-World 3 is Tropical Paradise and Tropical Volcano. (TP Castle will be based on the Oak enemy {yes im talking about the scrapped supertux oak enemy} and it will actually be half-outside and half-inside but not in seperate sectors, if you know. Those who know. Scary Trollge face. Sigma Ohio, even! It will be named Destroyed Dungeon) (TP Boss is Toucan and Master Totem)
+World 2 is Giant Sewers (GS Castle will be based on entering pipes and swimming) (GS Boss is undecided)
 
-World 4 is Huge Airship (A new world not seen in SuperTux) (HA Castle will be based on little fighting arenas and non-dangerous trolls like Pick A Door (but good) and places where you have to fight enemies like Captain Snowballs or whatever) (HA Boss is Capto, which is a Captain Snowball but better. He's a more difficult reskin of the Yeti with the Yeti's Pinch Mode)
+World 3 is Poisonous Desert (PD Castle will be based on rising poison) (PD Boss is undecided but might be a poison monster thingy)
 
-World 5 is Halloween Island (HI Boss is Pumpking, which is a Pumpkin, with a crown, and all the halloween stuff like skulls, a witch hat and horns) (The way to defeat Pumpking would be to make it rot faster, like how a Pumpkin rots / molds fast in real life)
+World 4 is Huge Airship (HA Castle will be based on little fighting arenas and non-dangerous trolls like Pick A Door (but good) and places where you have to fight enemies like Captain Snowballs or whatever) (HA Boss is Capto, which is a Captain Snowball but better. He's a more difficult reskin of the Yeti with the Yeti's Pinch Mode)
 
-World 6 is Christmas Island (More snowy than Icy Island, with more christmas decorations) (CI Boss is Evil Penguin, which is the blue penguin with a Spiky hat idea from SuperTux. He's basically a dispenser) (The way to defeat Evil Penguin would be to survive)
+World 5 is Mountain Mines (MM Castle will be based on walljumping and climbable objects) (MM Boss will either be an absolutely GIANT owl or a Grizzly Bear) (Giant Owl would work by sending other Owls to drop skydives and then it'll dive down like a Zeekling to attack Tux. It's pinch mode will be it flying away {which means you have to climb more mountain to get to it} and then it'll do it's diving down thing when Tux gets there) (Grizzly Bear would work by throwing various enemies at Tux while hiding behind a wall, but then that wall would get revealed and it'd only take 1 hit to defeat it, however, there'd be multiple different phases anyways)
 
-World 7 might be based on Japan since I saw in one of the Snowball XCF files, there was a japanese hat and I think it's a nice idea, however, NewerSMB already did the Japan World idea and there's enough NSMB references in the mod anyways.
+World 6 is Fluffy Clouds (FC Castle will be based on the Flip Potion and gravity) (FC Boss will be a Robot Nolok who acts exactly like the Ghost Tree)
 
-World 8 is Aquatic Cave (Way more water-based than Tropical Paradise, but since Tux's underwater controls are way better than most games, it'll actually be some FUN underwater levels... Although there might be some little puzzles and maze levels) (AC Boss is Fisheater. It eats Fish and is a Fish, but also eats literally every living being ever) (The way to defeat it would be to just swim away from it, which makes the boss fight just an autoscroller level, however, when you touch the fish, it's INSTANT death, no losing power-ups, just death)
+World 7 is The Cursed Forest (It'll look like Halloween Island without grass, just rocks, dirt and trees. Also, no water, just poison and lava) (CF Castle will be a mansion and it will be based on 2 new mechanics, the Reveal Block and the Hide Block) (CF boss will be a giant pumpkin named Pumpking and to defeat him, you'd need to make him mold / rot faster)
 
-World 9 is Savanna Island (Temporary name)
+World 8 is Savanna Island (Temporary name)
+
+World 9 is Aquatic Cave (Way more water-based than Tropical Paradise, but since Tux's underwater controls are way better than most games, it'll actually be some FUN underwater levels... Although there might be some little puzzles and maze levels) (AC Boss is Fisheater. It eats Fish and is a Fish, but also eats literally every living being ever) (The way to defeat it would be to just swim away from it, which makes the boss fight just an autoscroller level, however, when you touch the fish, it's INSTANT death, no losing power-ups, just death)
 
 World 10 is Crocodile Swamp (Nolok is a crocodile, I think) (CS Boss is Nolok, and it is the final boss. Nolok would be like a combination of the Ghost Tree, with the roots, and the Yeti, with how Nolok would work. Nolok would have 2 phases, both with 5 lives. Phase 1 would be like fighting an entire factory level and phase 2 would be like fighting the Yeti and the Ghost Tree (or more accurately, an invincible, invisible Root Sapling))
 
@@ -47,8 +49,6 @@ World 11 is Bonus Planet (BP boss is Ghost Nolok, being a reskin of Nolok to mak
 ## DISCLAIMERS
 
 This mod is not made as a generic "haha i finish supertux", I intentionally avoided adding Mountain Peaks.
-
-This mod isn't made to be disrespectful at all. I respect the work that SuperTux Team does on SuperTux and this wouldn't exist without SuperTux, obviously. In fact, I wouldn't even be a fan of Tux-related stuff if it wasn't for SuperTux.
 
 I am not claiming this is "better" than the original SuperTux at all. This is quite different from SuperTux and I don't want this mod to be compared to the actual game at all.
 
@@ -60,7 +60,7 @@ You should read LICENSES.txt and credits.stxt
 
 This is licensed under the same license of SuperTux. I legally couldn't change that even if I wanted to. I don't want to change it however, since CC-BY-SA and GPL are my favourite licenses ever.
 
-This mod is free as in freedom and price, which means if you paid for this, you got scammed!
+This mod is free, which means if you paid for this, you got scammed!
 
 The source code will always be available, and it'd always be available even if GPL wasn't one of the licenses. I believe FOSS software is great and at least all free-as-in-price software should have their source code be available, even if the license is just source available instead of FOSS / Open Source
 
