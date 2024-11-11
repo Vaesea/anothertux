@@ -5,16 +5,16 @@
   (worldmap #f)
   (object
     (class "snowball")
-    (icon "images/creatures/snowbadguys/snowball/snow/snowball-5.png"))
+    (icon "images/creatures/snowbadguys/snowball/normal/snowball-5.png"))
   (object
     (class "smartball")
     (icon "images/creatures/snowbadguys/snowball/smart/smartball-5.png"))
   (object
     (class "captainsnowball")
-    (icon "images/creatures/snowbadguys/snowball/captain/captain_left-5.png"))
+    (icon "images/creatures/snowbadguys/snowball/captain/captain-left-5.png"))
   (object
     (class "bouncingsnowball")
-    (icon "images/creatures/snowbadguys/snowball/bounce/bs4.png"))
+    (icon "images/creatures/snowbadguys/snowball/bouncing/bs4.png"))
   (object
     (class "snowman")
     (icon "images/creatures/snowbadguys/snowman/smwalk10.png"))
@@ -88,7 +88,7 @@
     (class "darttrap")
     (icon "images/creatures/miscbadguys/dart_trap/d-idle.png"))
   (object
-    (class "slowjumpingenemy")
+    (class "slowjumpingbadguy")
     (icon "images/creatures/miscbadguys/skullyhop/silhouette/s-idle.png"))
   (object
     (class "owl")
