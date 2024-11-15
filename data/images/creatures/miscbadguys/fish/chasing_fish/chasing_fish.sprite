@@ -1,19 +1,19 @@
 (supertux-sprite
   (action
     (name "swim-left")
-    (hitbox 8 10 46 46)
+    (hitbox 4 10 42 24)
     (fps 12)
     (images "dopefish.png"))
 
   (action
     (name "swim-right")
-    (hitbox 10 10 46 46)
+    (hitbox 4 10 42 24)
     (fps 12)
     (mirror-action "swim-left"))
 
   (action
     (name "notice-left")
-    (hitbox 8 10 46 46)
+    (hitbox 4 10 42 24)
     (loops 1)
     (fps 12)
     (images "dopefish.png"
@@ -21,31 +21,31 @@
 
   (action
     (name "notice-right")
-    (hitbox 10 10 46 46)
+    (hitbox 4 10 42 24)
     (loops 1)
     (fps 12)
     (mirror-action "notice-left"))
 
   (action
     (name "chase-left")
-    (hitbox 5 10 46 46)
+    (hitbox 4 10 42 24)
     (fps 20)
     (images "dopefish_chase.png"))
 
   (action
     (name "chase-right")
-    (hitbox 10 10 46 46)
+    (hitbox 4 10 42 24)
     (fps 20)
     (mirror-action "chase-left"))
 
   (action
     (name "iced-left")
-    (hitbox 0 0 64 64)
+    (hitbox -6 -6 64 64)
     (images "dopefish.png"))
 
   (action
     (name "iced-right")
-    (hitbox 0 0 64 64)
+    (hitbox -6 -6 64 64)
     (mirror-action "iced-left"))
 
 )
