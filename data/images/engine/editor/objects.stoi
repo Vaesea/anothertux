@@ -27,32 +27,6 @@
  )
 
  (objectgroup
-  (name (_"Forest Enemies"))
-  (worldmap #f)
-  (object
-    (class "mole")
-    (icon "images/creatures/forestbadguys/mole/m5.png"))
-  (object
-    (class "zeekling")
-    (icon "images/creatures/forestbadguys/zeekling/left-0.png"))
-  (object
-    (class "snail")
-    (icon "images/creatures/forestbadguys/snail/snail0.png"))
-  (object
-    (class "mrtree")
-    (icon "images/creatures/forestbadguys/mr_tree/walk-left-2.png"))
-  (object
-    (class "stumpy")
-    (icon "images/creatures/forestbadguys/mr_tree/small-left-1.png"))
-  (object
-    (class "viciousivy")
-    (icon "images/creatures/forestbadguys/vicious_ivy/left-2.png"))
-  (object
-    (class "walkingleaf")
-    (icon "images/creatures/forestbadguys/walkingleaf/left-2.png"))
- )
-
- (objectgroup
   (name (_"Crystallo"))
   (worldmap #f)
   (object
@@ -63,7 +37,7 @@
     (icon "images/creatures/snowbadguys/crystallo/crystallo-sleeping.png"))
   (object
     (class "rcrystallo")
-    (icon "images/creatures/snowbadguys/crystallo/roof/roof_crystallo-editor.png"))
+    (icon "images/creatures/snowbadguys/crystallo/roof_crystallo-editor.png"))
  )
 
  (objectgroup
@@ -95,13 +69,13 @@
     (icon "images/creatures/miscbadguys/owl/left-1.png"))
   (object
     (class "fish-jumping")
-    (icon "images/creatures/miscbadguys/fish/f1.png"))
+    (icon "images/creatures/miscbadguys/fish/jumping_fish/jump-0.png"))
   (object
     (class "crusher")
-    (icon "images/creatures/miscbadguys/crusher/ice/iceblock.png"))
+    (icon "images/creatures/miscbadguys/crusher/ice/small/iceblock.png"))
   (object
     (class "jumpy")
-    (icon "images/creatures/miscbadguys/jumpy/left-up.png"))
+    (icon "images/creatures/miscbadguys/jumpy/metal/left-up.png"))
   (object
     (class "spiky")
     (icon "images/creatures/miscbadguys/spiky/spikywalk6.png"))
@@ -127,9 +101,6 @@
   (object
     (class "yeti")
     (icon "images/creatures/boss/yeti/hudlife.png"))
-  (object
-    (class "ghosttree")
-    (icon "images/creatures/boss/ghost_tree/hudlife.png"))
   (object
     (class "yeti_stalactite")
     (icon "images/engine/editor/stalactite_ice_yeti.png"))
