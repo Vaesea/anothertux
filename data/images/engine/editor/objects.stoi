@@ -71,6 +71,15 @@
     (class "fish-jumping")
     (icon "images/creatures/miscbadguys/fish/jumping_fish/jump-0.png"))
   (object
+    (class "fish-harmless")
+    (icon "images/creatures/miscbadguys/fish/innocent_fish/cf-0.png"))
+  (object
+    (class "fish-swimming")
+    (icon "images/creatures/miscbadguys/fish/swimming_fish/wait-0.png"))
+  (object
+    (class "fish-chasing")
+    (icon "images/creatures/miscbadguys/fish/chasing_fish/dopefish.png"))
+  (object
     (class "crusher")
     (icon "images/creatures/miscbadguys/crusher/ice/small/iceblock.png"))
   (object
