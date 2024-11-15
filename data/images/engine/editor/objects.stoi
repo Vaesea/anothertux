@@ -75,7 +75,7 @@
     (icon "images/creatures/miscbadguys/fish/innocent_fish/cf-0.png"))
   (object
     (class "fish-swimming")
-    (icon "images/creatures/miscbadguys/fish/swimming_fish/wait-0.png"))
+    (icon "images/creatures/miscbadguys/fish/swimming_fish/left-0.png"))
   (object
     (class "fish-chasing")
     (icon "images/creatures/miscbadguys/fish/chasing_fish/dopefish.png"))
