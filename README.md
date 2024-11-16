@@ -1,6 +1,6 @@
 # ANOTHERTUX
 
-AnotherTux is a mod of a SuperTux nightly build in between 0.6.3 and 0.7.0. Jump and run through worlds you've seen before, along with some new worlds, with the cost of levels per world.
+AnotherTux is a mod of a SuperTux nightly build in between 0.6.3 and 0.7.0. Jump and run through a world you've seen before, along with some new worlds, with the cost of levels per world.
 
 ## The Main Stuff
 
