@@ -665,10 +665,10 @@
       77   51   52    212
       78   62   61    213
       3159 44   83   2947
-      2948 84   103   128
+      2948 84   0    128
       102  140  3161 3162
       104  105  3160  112
-      3037 2943 2944 2945
+      3037 0    2944 2945
       2946 1311 2153 0
      
       57   58   2841 2842
@@ -905,8 +905,8 @@
       1500 1501 1502 1503
       1507 1508 1509 1510
       1483 1484 1485 1568
-      1490 1491 1492 1517
-      1497 1498 1499 1518
+      1490 1491 1492 0
+      1497 1498 1499 0
       1504 1505 1506 0
       1511 1512 0    0
       1513 1514 0    0
@@ -1009,8 +1009,8 @@
       3444 3445 3456 3457
       3285 3286 0    0
       3287 3288 0    0
-      3289 3290 3458 3459
-      0    0    3460 3461
+      3289 3290 0    0
+      0    0    0    0
 
       217  218  219  220
       221  222  224  225
@@ -1263,29 +1263,6 @@
     (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 7)")
     (editor-images "objects/bonus_block/bonus-tramp.png")
     (data 7)
-    (fps 15)
-  )
-
-  (tile
-    (id 2943)
-    (images
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-4.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-    )
-    (solid #t)
-    (object-name "bonusblock")
-    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 6)")
-    (editor-images "objects/bonus_block/off.png")
-    (data 6)
     (fps 15)
   )
   
@@ -1655,28 +1632,6 @@
     (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 2)")
     (editor-images "objects/bonus_block/bonus-fire_flower.png")
     (data 2)
-    (fps 2)
-  )
-  (tile
-    (id 103)
-    (images
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-4.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-    )
-    (solid #t)
-    (object-name "bonusblock")
-    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 3)")
-    (editor-images "objects/bonus_block/bonus-herring.png")
-    (data 3)
     (fps 2)
   )
   (tile
@@ -2935,33 +2890,6 @@
     (image "tiles/castle/stonewindow.png")
   )
 
-  (tile
-    (id 1517)
-    (images
-        "tiles/castle/walltorch/flame-0.png"
-        "tiles/castle/walltorch/flame-0.png"
-        "tiles/castle/walltorch/flame-1.png"
-        "tiles/castle/walltorch/flame-1.png"
-        "tiles/castle/walltorch/flame-2.png"
-        "tiles/castle/walltorch/flame-2.png"
-        "tiles/castle/walltorch/flame-3.png"
-        "tiles/castle/walltorch/flame-3.png"
-        "tiles/castle/walltorch/flame-4.png"
-        "tiles/castle/walltorch/flame-4.png"
-        "tiles/castle/walltorch/flame-5.png"
-        "tiles/castle/walltorch/flame-5.png"
-        "tiles/castle/walltorch/flame-6.png"
-        "tiles/castle/walltorch/flame-6.png"
-    )
-    (fire #t)
-    (fps 10)
-  )
-  (tile
-    (id 1518)
-    (images
-      "tiles/castle/walltorch/flame-base-0.png"
-    )
-  )
   (tiles
     (width 4)
     (height 3)
@@ -3415,28 +3343,6 @@
     )
     (image "tiles/signs/color_magenta.png")
   )
-  (tile
-    (id 1735)
-    (images
-      "tiles/forest/exit/top1.png"
-      "tiles/forest/exit/top2.png"
-      "tiles/forest/exit/top3.png"
-      "tiles/forest/exit/top2.png"
-    )
-    (hurts #f)
-    (solid #f)
-    (fps 2))
-  (tile
-    (id 1736)
-    (images
-       "tiles/forest/exit/bottom1.png"
-       "tiles/forest/exit/bottom2.png"
-       "tiles/forest/exit/bottom3.png"
-       "tiles/forest/exit/bottom2.png"
-     )
-    (hurts #t)
-    (solid #f)
-    (fps 2))
   (tiles
     (width 1)
     (height 3)
@@ -4847,26 +4753,6 @@
     (image "tiles/forest/nolok_statue.png")
   )
 
-  (tile
-    (id 3458)
-    (images "creatures/spike/spikeup2.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3459)
-    (images "creatures/spike/spikedown2.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3460)
-    (images "creatures/spike/spikeleft2.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3461)
-    (images "creatures/spike/spikeright2.png")
-    (hurts #t)
-  )
   (tiles
     (width 4)
     (height 3)
