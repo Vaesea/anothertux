@@ -29,7 +29,7 @@ static const float ACCELERATION_TIME = 0.2f;
 static const float DECELERATION_TIME = 0.4f;
 
 FishChasing::FishChasing(const ReaderMapping& reader) :
-  FishSwimming(reader, "images/creatures/fish/ice/greenfish.sprite"),
+  FishSwimming(reader, "images/creatures/miscbadguys/fish/chasing_fish/chasing_fish.sprite"),
   m_chase_state(ChaseState::NORMAL),
   m_realization_timer(),
   m_acceleration_timer(),
@@ -45,15 +45,16 @@ FishChasing::FishChasing(const ReaderMapping& reader) :
   reader.get("chase-speed", m_chase_speed, CHASE_SPEED);
 }
 
+// TODO: Remove Forest and Corrupted Fish
 std::string
 FishChasing::get_default_sprite_name() const
 {
   switch (m_type)
   {
     case FOREST:
-      return "images/creatures/fish/forest/brownfish.sprite";
+      return "images/creatures/miscbadguys/fish/chasing_fish/chasing_fish.sprite";
     case CORRUPTED:
-      return "images/creatures/fish/forest/corrupted/corrupted_brownfish.sprite";
+      return "images/creatures/miscbadguys/fish/chasing_fish/chasing_fish.sprite";
     default:
       return m_default_sprite_name;
   }
