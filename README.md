@@ -6,7 +6,7 @@ AnotherTux is a mod of a SuperTux nightly build in between 0.6.3 and 0.7.0. Jump
 
 The art is reverted to 0.6.3.
 
-Some enemies being removed to make this mod smaller, as one of the main things about this mod is, at least before World 3, it needs to be under 150 MB. It hasn't yet reached that.
+Some enemies being removed to make this mod smaller, as one of the main things about this mod is it needs to be under 500 MB.
 
 Things are more organized here too because I prefer everything to be organized, although it does take more clicks to get to things.
 
