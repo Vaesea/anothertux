@@ -22,7 +22,33 @@
     (blank)
 	(text
       (type "heading")
-      (string (_ "Current SuperTux Team"))
+      (string (_ "AnotherTux Credits"))
+    )
+	(blank)
+	(person
+      (name "Sophie \"Vaesea\" Ball")
+      (info (_ "Pretty much almost everything new"))
+    )
+	(blank)
+	(person
+      (name "Zilly Mike")
+      (info (_ "The song named At The Top. It's from Modarchive.org"))
+    )
+	(blank)
+	(person
+      (name "BLuRry")
+      (info (_ "The song named BLuRry XMas Jam. It's from Modarchive.org"))
+    )
+    (blank)
+	(person
+      (name "The_Whim")
+      (info (_ "Beginning fanfare of the Menu Theme. It's from the Old SuperTux Forums"))
+    )
+  (blank)
+	(blank)
+	(text
+      (type "heading")
+      (string (_ "SuperTux Team"))
     )
 	(blank)
 	(person

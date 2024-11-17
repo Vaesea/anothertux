@@ -27,68 +27,38 @@ License should be included with them.
 
 == Music ==
 
-All files in data/music created by wansti and licensed under GPLv2+CC-by-sa, unless stated otherwise.
-* airship_remix.ogg - from remaxim at OpenGameArt.org, permission to release under CC-BY-SA and GPL version 2 or later
-* airship_2.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* arctic_cave.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* battle_theme.ogg - from remaxim at OpenGameArt.org, permission to release under CC-BY-SA and GPL version 2 or later
-* beneath_the_rabbit_hole.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* bonuscave.ogg
-* bossattack.ogg
-* bright_thunders.ogg - by Krobonil, licensed under CC-BY-SA
-* cave.ogg
-* call_of_the_winding_path.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* chipdisko.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang - explicit permission granted to release unter GPL and CC-by-sa.
-* clavelian_march.ogg
-* credits.ogg
-* darkforestkeep.ogg
-* forest-cave.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* forest.ogg
-* forest2.ogg
-* forest3.ogg
-* forestmap.ogg
-* forest_theme.ogg - Forest Prophecy reEducated, by Wansti and Tobias "ToBeFree" Frei (GPLv2+CC-by-sa)
-* forest-sprint.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* fortress.ogg
-* ghostforest_map.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* ghostforest.ogg
-* ghostforest2.ogg
-* greatgigantic.ogg - Based on a work by Chris Huelsbeck - We have his permission to release this under GPL.
-* shallow-green.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* halloween_1.ogg - By Forty-Two - licensed under CC-BY-SA 4.0
-* ice_music.ogg - By ZhayTee
-* intro.ogg
-* invincible.ogg
-* arctic_breeze.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* jewels.ogg - By cynicmusic/congusbongus - <http://opengameart.org/content/crystal-cave-mysterious-ambience-seamless-loop> - CC-BY 3.0/CC-BY-SA 3.0/GPL 3.0
-* leveldone.ogg
-* new_forest_map.ogg - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
-* salcon.ogg - Salsa Con Carne by Mystical - Replaced due to licensing issues (some non-free samples are used)
-    by a work-in-progress remix in trunk and the 0.3.x branch (r4585), for which we have permission to release under GPL and CC-by-sa. - wansti
-* saharan_penguin.ogg - by Enol "Meji" Monte, licensed CC BY-SA
-* theme.ogg
-* treeboss.ogg
-* tropicalbreeze.ogg - by flan, licensed CC-BY-SA 4.0
-* wisphunt.ogg
-* worldmap_old.ogg - By ZhayTee
-* voc-***.ogg
-* night.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* worldmap_ice.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* sunset.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* skylevel.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* midday.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* midday_alt.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* cavetheme.ogg - By SnugglyBun, based on the original cave theme by Wansti. licensed under CC-BY-SA 4.0
-* cavetheme_alt.ogg - By SnugglyBun, cover of the original cave theme by Wansti. licensed under CC-BY-SA 4.0
-* crystalmine_intro.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* crystalmine_main.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* crystalmine_underwater.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* glacier.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* snowfort.ogg - By SnugglyBun, licensed under CC-BY-SA 4.0
-* icecastle.ogg - By SnugglyBun, based on the original fortress theme by Wansti. licensed under CC-BY-SA 4.0
-* yetiboss.ogg - By SnugglyBun, cover of the original boss battle theme by Wansti. licensed under CC-BY-SA 4.0
-* forest_midday.ogg - By SnugglyBun, based on the original forest theme by Wansti. licensed under CC-BY-SA 4.0
-* forest_midday_alt.ogg - By SnugglyBun, based on forest.ogg and forest3.ogg by Wansti. licensed under CC-BY-SA 4.0
+* chipdiskoremix.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang, remix (chipdiskoremix.ogg) by Sophie "Vaesea" Ball, based on a midi by Nathan "Chitan" Lieb, licensed under CC-BY-SA + GPL
+
+* cave.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* nearthefishes.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* nightfreeze.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* bossattackremix.ogg - Original song by Wansti, remix by Sophie "Vaesea" Ball, licensed under GPLv2+CC-by-sa
+
+* darkcastle.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* arcticair.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* frozenworld.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* credits.ogg - Original song by Wansti, remix by Sophie "Vaesea" Ball, licensed under GPLv2+CC-by-sa
+
+* intro.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* invincible.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* leveldone.ogg - created by wansti and licensed under GPLv2+CC-by-sa
+
+* theme.ogg - Beginning fanfare by Ezekiel "The_Whim" Deboest, original song by Wansti, remix (using the beginning fanfare) made by Sophie "Vaesea" Ball, licensed under GPL v2 + CC-by-sa and whatever The_Whim's fanfare is licensed under.
+
+* thebeginning.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
+
+* blurry_xmas_jam.ogg - By BLuRry on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=139150, licensed under CC-BY-SA-4.0
+
+* 69027-at_the_top.ogg - By Zilly Mike on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=169999, licensed under CC-BY-4.0
+
 
 == Scripts ==
 
@@ -96,11 +66,8 @@ These are just more code.
 
 == Speech ==
 
-* penny_runt_01.ogg - self-made by gwater
-* tux_hello.ogg - self-made by TuxThePenguin
-* tux_murp_01.ogg - self-made by TuxThePenguin
-* tux_rap.ogg - self-made by TuxThePenguin and wansti
-* tux_upset.ogg - self-made by TuxThePenguin
+* tuxspook.ogg - part of an audio file of Tux samples by TuxThePenguin
+* tuxspook2.ogg - part of an audio file of Tux samples by TuxThePenguin
 
 == Sounds ==
 

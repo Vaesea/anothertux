@@ -27,7 +27,7 @@ static const float FISH_BEACH_TIME = 5.f;
 static const float FISH_FLOAT_TIME = 2.f;
 
 FishSwimming::FishSwimming(const ReaderMapping& reader) :
-  BadGuy(reader, "images/creatures/fish/ice/bluefish.sprite"),
+  BadGuy(reader, "images/creatures/miscbadguys/fish/swimming_fish.sprite"),
   m_state(FishYState::BALANCED),
   m_beached_timer(),
   m_float_timer(),
@@ -49,6 +49,7 @@ FishSwimming::FishSwimming(const ReaderMapping& reader, const std::string& sprit
   m_water_affected = false;
 }
 
+// TODO: Remove Forest and Corrupted Fish.
 GameObjectTypes
 FishSwimming::get_types() const
 {
@@ -65,9 +66,9 @@ FishSwimming::get_default_sprite_name() const
   switch (m_type)
   {
     case FOREST:
-      return "images/creatures/fish/forest/bluefish.sprite";
+      return "images/creatures/miscbadguys/fish/swimming_fish.sprite";
     case CORRUPTED:
-      return "images/creatures/fish/forest/corrupted/corrupted_bluefish.sprite";
+      return "images/creatures/miscbadguys/fish/swimming_fish.sprite";
     default:
       return m_default_sprite_name;
   }

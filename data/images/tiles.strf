@@ -58,7 +58,7 @@
       2124 2125 0    0
       2129 2130 0    0
 	  
-	  3988 3989 3990 3991
+      3988 3989 3990 3991
 
       2909 2910 2913 2914
       2911 2912 2915 2916
@@ -150,23 +150,23 @@
       40   41   42   1815
       119  121  120  1816
 	  
-	  3930 3931 3932 3939
-	  3933 3934 3935 3941
-	  3936 3937 3938 3943
-	  3940 3942 3944 3945
-	  3946 3947 0 0
+      3930 3931 3932 3939
+      3933 3934 3935 3941
+      3936 3937 3938 3943
+      3940 3942 3944 3945
+      3946 3947 0 0
 	  
-	 3948 3949 3950 3951
+     3948 3949 3950 3951
      3954 3955 3956 3957
-	 3960 3961 3962 3963
-	 3952 3958 3964 3953
+	   3960 3961 3962 3963
+	   3952 3958 3964 3953
      3959 3965 3966 3967
-	 3968 3969 3970 3971
+	   3968 3969 3970 3971
 	 
-	 3972 3973 3974 3975
-	 3976 3977 3978 3979
-	 3980 3981 3982 3983
-	 3984 3985 3986 3987
+	   3972 3973 3974 3975
+	   3976 3977 3978 3979
+     3980 3981 3982 3983
+     3984 3985 3986 3987
     )
   )
   
@@ -192,7 +192,7 @@
       1329 1330 1331 1332
       1333 1334 1335 1336
 	  
-	  85   86   87   88
+      85   86   87   88
       89   90   91   92
       3419 3420 3421 3422
       3423 3424 3425 3426
@@ -311,36 +311,36 @@
       2491 2492 2495 2496
       2505 2506 2509 2510
 	  
-	  2409 2410 2417 2418
-	  2423 2424 2431 2432
-	  2437 2438 2445 2446
-	  2451 2452 2419 2420
-	  2465 2466 2433 2434
-	  2479 2480 2447 2448
-	  2493 2494 2461 2462
-	  2507 2508    0    0
+      2409 2410 2417 2418
+      2423 2424 2431 2432
+      2437 2438 2445 2446
+      2451 2452 2419 2420
+      2465 2466 2433 2434
+      2479 2480 2447 2448
+      2493 2494 2461 2462
+      2507 2508    0    0
 	  
-	  2413 2414 2415 2416
-	  2427 2428 2429 2430
-	  2441 2442 2443 2444
-	  2455 2456 2457 2458
-	  2469    0    0 2472
-	  2483 2484 2485 2486
-	  2497 2498 2499 2500
-	  2511 2512 2513 2514
+      2413 2414 2415 2416
+      2427 2428 2429 2430
+      2441 2442 2443 2444
+      2455 2456 2457 2458
+      2469    0    0 2472
+      2483 2484 2485 2486
+      2497 2498 2499 2500
+      2511 2512 2513 2514
 	  
-	  2519 2520 2521 2522
-	  2535 2536 2537 2538
-	  2551 2552 2553 2554
-	  2567 2568 2569 2570
-	  0 2584 2585    0
-	  2473 2474 2475 2476
-	  2487 2488 2489 2490
-	  2501 2502 2503 2504
-	  2583    0    0 2586
-	  2599 2600 2601 2602
-	  2615 2616 2617 2618
-	  0 2632 2633    0
+      2519 2520 2521 2522
+      2535 2536 2537 2538
+      2551 2552 2553 2554
+      2567 2568 2569 2570
+      0 2584 2585    0
+      2473 2474 2475 2476
+      2487 2488 2489 2490
+      2501 2502 2503 2504
+      2583    0    0 2586
+      2599 2600 2601 2602
+      2615 2616 2617 2618
+      0 2632 2633    0
 	  
       2647 2648 2649 2650
       2651 2652 2653 2654
@@ -665,10 +665,10 @@
       77   51   52    212
       78   62   61    213
       3159 44   83   2947
-      2948 84   103   128
+      2948 84   0    128
       102  140  3161 3162
       104  105  3160  112
-      3037 2943 2944 2945
+      3037 0    2944 2945
       2946 1311 2153 0
      
       57   58   2841 2842
@@ -682,8 +682,6 @@
       2861 2862 2863 2864
       2865 2866 2867 2868
       2869 2870 2871 2872
-
-      2905 2906 2907 2908
      
       1551 1540 1541 1545
       1549 1543 1544 1542
@@ -907,8 +905,8 @@
       1500 1501 1502 1503
       1507 1508 1509 1510
       1483 1484 1485 1568
-      1490 1491 1492 1517
-      1497 1498 1499 1518
+      1490 1491 1492 0
+      1497 1498 1499 0
       1504 1505 1506 0
       1511 1512 0    0
       1513 1514 0    0
@@ -1009,10 +1007,10 @@
       3440 3441 3452 3453
       3442 3443 3454 3455
       3444 3445 3456 3457
-      3285 3286 3446 3447
-      3287 3288 3448 3449
-      3289 3290 3458 3459
-      0    0    3460 3461
+      3285 3286 0    0
+      3287 3288 0    0
+      3289 3290 0    0
+      0    0    0    0
 
       217  218  219  220
       221  222  224  225
@@ -1044,15 +1042,15 @@
      4100 4101 4102 0
      4157 4158 4159 4160
      4161 4162 4163 4164
-	 4103 4165 4166 4167
-	 4168 4169 4181 4182
+     4103 4165 4166 4167
+     4168 4169 4181 4182
 	 
-	 4170 4171 4172 4190
+     4170 4171 4172 4190
      4173 4175 4185 4191
      4174 4176 4186 4192
      4177 4178 4187 4193
      4179 4183 4188 4194
-	 4180 4184 4189 0
+     4180 4184 4189 0
      
      93   94   95   96
      97   98   99   100
@@ -1265,29 +1263,6 @@
     (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 7)")
     (editor-images "objects/bonus_block/bonus-tramp.png")
     (data 7)
-    (fps 15)
-  )
-
-  (tile
-    (id 2943)
-    (images
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-4.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-    )
-    (solid #t)
-    (object-name "bonusblock")
-    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 6)")
-    (editor-images "objects/bonus_block/off.png")
-    (data 6)
     (fps 15)
   )
   
@@ -1508,15 +1483,6 @@
     )
     (solid #t)
   )
-  (tile
-    ; dupe of tile 70, this one will be removed.
-    (id 63)
-    (deprecated #t)
-    (images
-      "tiles/background/backgroundtile1.png"
-    )
-    (solid #t)
-  )
   (tiles
     (width 6)
     (height 3)
@@ -1531,47 +1497,6 @@
       1 1 1 1 0 0
     )
     (image "tiles/castle/grey_brick.png")
-  )
-  (tile
-    ; dupe of tile 63, this one will be kept.
-    (id 70)
-    (deprecated #t)
-    (images
-      "tiles/background/backgroundtile1.png"
-    )
-    (solid #t)
-  )
-  (tile
-    (id 71)
-    (deprecated #t)
-    (images
-      "tiles/background/backgroundtile2.png"
-    )
-    (solid #t)
-  )
-  (tile
-    (id 72)
-    (deprecated #t)
-    (images
-      "tiles/background/backgroundtile3.png"
-    )
-    (solid #t)
-  )
-  (tile
-    (id 73)
-    (deprecated #t)
-    (images
-      "tiles/background/backgroundtile4.png"
-    )
-    (solid #t)
-  )
-  (tile
-    (id 74)
-    (deprecated #t)
-    (images
-      "tiles/background/backgroundtile5.png"
-    )
-    (solid #t)
   )
   (tile
     (id 75)
@@ -1710,28 +1635,6 @@
     (fps 2)
   )
   (tile
-    (id 103)
-    (images
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-4.png"
-      "objects/bonus_block/full-3.png"
-      "objects/bonus_block/full-2.png"
-      "objects/bonus_block/full-1.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-      "objects/bonus_block/full-0.png"
-    )
-    (solid #t)
-    (object-name "bonusblock")
-    (object-data "(sprite \"images/objects/bonus_block/bonusblock.sprite\") (data 3)")
-    (editor-images "objects/bonus_block/bonus-herring.png")
-    (data 3)
-    (fps 2)
-  )
-  (tile
     (id 104)
     (images
       "tiles/blocks/brick0.png"
@@ -1863,22 +1766,6 @@
     (object-name "sequencetrigger")
     (object-data "(width 32) (height 32) (sequence \"endsequence\")")
     (editor-images "tiles/auxiliary/endseq.png")
-  )
-  ; For compatibility with 0.1.x levels, use tile to 1809-1814 instead
-  (tile
-    (id 134)
-    (deprecated #t)
-    (images
-      (region "tiles/doodads/nolok-statue.png" 0 0 32 96)
-    )
-  )
-  ; For compatibility with 0.1.x levels, use tile to 1809-1814 instead
-  (tile
-    (id 135)
-    (deprecated #t)
-    (images
-      (region "tiles/doodads/nolok-statue.png" 32 0 32 96)
-    )
   )
 
   (tiles
@@ -2696,13 +2583,6 @@
     (editor-images "tiles/auxiliary/invisible-editor.png")
   )
   (tile
-    (id 1312)
-    (deprecated #t)
-    (solid #t)
-    (hidden #t)
-    (images "tiles/doodads/havoktux-0.png")
-  )
-  (tile
     (id 1313)
     (solid #f)
     (images "particles/rainsplash-1.png"
@@ -2812,14 +2692,6 @@
       "tiles/doodads/blueicetop.png"
     )
   )
-  (tile
-    (id 1350)
-    (deprecated #t)
-    (images
-      "tiles/doodads/platter.png")
-    (solid #f)
-  )
-
 
   (tiles
     (width 3)
@@ -3018,33 +2890,6 @@
     (image "tiles/castle/stonewindow.png")
   )
 
-  (tile
-    (id 1517)
-    (images
-        "tiles/castle/walltorch/flame-0.png"
-        "tiles/castle/walltorch/flame-0.png"
-        "tiles/castle/walltorch/flame-1.png"
-        "tiles/castle/walltorch/flame-1.png"
-        "tiles/castle/walltorch/flame-2.png"
-        "tiles/castle/walltorch/flame-2.png"
-        "tiles/castle/walltorch/flame-3.png"
-        "tiles/castle/walltorch/flame-3.png"
-        "tiles/castle/walltorch/flame-4.png"
-        "tiles/castle/walltorch/flame-4.png"
-        "tiles/castle/walltorch/flame-5.png"
-        "tiles/castle/walltorch/flame-5.png"
-        "tiles/castle/walltorch/flame-6.png"
-        "tiles/castle/walltorch/flame-6.png"
-    )
-    (fire #t)
-    (fps 10)
-  )
-  (tile
-    (id 1518)
-    (images
-      "tiles/castle/walltorch/flame-base-0.png"
-    )
-  )
   (tiles
     (width 4)
     (height 3)
@@ -3498,28 +3343,6 @@
     )
     (image "tiles/signs/color_magenta.png")
   )
-  (tile
-    (id 1735)
-    (images
-      "tiles/forest/exit/top1.png"
-      "tiles/forest/exit/top2.png"
-      "tiles/forest/exit/top3.png"
-      "tiles/forest/exit/top2.png"
-    )
-    (hurts #f)
-    (solid #f)
-    (fps 2))
-  (tile
-    (id 1736)
-    (images
-       "tiles/forest/exit/bottom1.png"
-       "tiles/forest/exit/bottom2.png"
-       "tiles/forest/exit/bottom3.png"
-       "tiles/forest/exit/bottom2.png"
-     )
-    (hurts #t)
-    (solid #f)
-    (fps 2))
   (tiles
     (width 1)
     (height 3)
@@ -4386,20 +4209,6 @@
     (image "tiles/pipe/blue.png")
   )
 
-  (tiles
-    (width 2)
-    (height 2)
-    (ids
-     2905 2906
-     2907 2908
-    )
-    (attributes
-         0    0
-         0    0
-    )
-    (image "tiles/pipe/mask.png")
-   )
-
    (tiles
     (width 4 )(height 10 )
     (ids
@@ -4926,27 +4735,6 @@
     (image "tiles/forest/statue2.png")
   )
 
-  (tile
-    (id 3446)
-    (images "creatures/spike/spikeup.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3447)
-    (images "creatures/spike/spikedown.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3448)
-    (images "creatures/spike/spikeleft.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3449)
-    (images "creatures/spike/spikeright.png")
-    (hurts #t)
-  )
-
   (tiles
     (width 2)
     (height 4)
@@ -4965,26 +4753,6 @@
     (image "tiles/forest/nolok_statue.png")
   )
 
-  (tile
-    (id 3458)
-    (images "creatures/spike/spikeup2.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3459)
-    (images "creatures/spike/spikedown2.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3460)
-    (images "creatures/spike/spikeleft2.png")
-    (hurts #t)
-  )
-  (tile
-    (id 3461)
-    (images "creatures/spike/spikeright2.png")
-    (hurts #t)
-  )
   (tiles
     (width 4)
     (height 3)
