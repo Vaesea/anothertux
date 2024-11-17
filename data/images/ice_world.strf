@@ -4,7 +4,7 @@
   (source "autotiles_ice_world.satc")
 )
 
-;; ice tiles- next id: 648
+;; worldmap tiles- next id: 675
 
 (tilegroup
 	(name (_ "Snow"))
@@ -27,6 +27,20 @@
 		456 457 462 463
 		458 459 464 465
 		460 461 466 467
+	)
+)
+(tilegroup
+	(name (_ "Sewers"))
+	(tiles
+		648 649 650
+		651 652 653
+		654 655 656
+		657 658 659
+		660 661 662
+		663 664 665
+		666 667 668
+		669 670 671
+		672 673 674
 	)
 )
 (tiles
@@ -770,6 +784,21 @@
 		75 76 77
 		78 79 82
 		80 81 83
+	)
+)
+(tiles
+	(width 3)(height 9)
+	(images "worldmap/sewers/pipes.png")
+	(ids
+		648 649 650
+		651 652 653
+		654 655 656
+		657 658 659
+		660 661 662
+		663 664 665
+		666 667 668
+		669 670 671
+		672 673 674
 	)
 )
 )
