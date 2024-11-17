@@ -22,9 +22,7 @@ This mod's levels will be more simple, and they will be similar to New Super Mar
 
 ## WORLDS
 
-World 1 is Icy Island. (II Castle will be based on the ice mechanic and the sliding mechanic and will be named Slippery Fortress) (II Boss is Yeti. He will not have his Pinch Mode and he will just be 3 lives)
-
-Mid-Way Level 1 (World 1.5 technically) would be a level based around... Actually I'm not sure.
+World 1 is Icy Island. (II Castle will be based on the ice mechanic and the sliding mechanic and will be named Slippery Fortress) (II Boss is Yeti. He will not have his Pinch Mode and he will just be 3 lives) (This has been finished!)
 
 World 2 is Giant Sewers (GS Castle will be based on entering pipes and swimming) (GS Boss is undecided)
 
