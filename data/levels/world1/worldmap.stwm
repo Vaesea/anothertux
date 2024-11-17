@@ -79,6 +79,7 @@
     )
     (level
       (z-pos 50)
+      (level "mountain_peak.stl")
       (x 47)
       (y 2)
     )
