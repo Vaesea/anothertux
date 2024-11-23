@@ -254,11 +254,6 @@
     (ambient-light
       (color 1 1 1)
     )
-    (background
-      (color 1 1 1)
-      (speed 0.1)
-      (image "/images/background/darkcave/darkcave-background.png")
-    )
     (camera
       (name "Camera")
       (mode "normal")
@@ -1565,14 +1560,14 @@ Level.spawn(\"outside\", \"main\");")
     )
     (decal
       (z-pos -50)
-      (sprite "/images/decal/snow/igloo-bg.png")
+      (sprite "/images/decal/snow/igloo_exit/igloo_bg.png")
       (x 1280)
       (y 288)
     )
     (decal
       (z-pos 100)
-      (sprite "/images/decal/snow/igloo-fg.png")
-      (x 1376)
+      (sprite "/images/decal/snow/igloo_exit/igloo_fg.png")
+      (x 1280)
       (y 288)
     )
     (flyingsnowball

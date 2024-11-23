@@ -86,14 +86,14 @@
     )
     (decal
       (z-pos -59)
-      (sprite "/images/decal/snow/igloo-bg.png")
-      (x 21648)
+      (sprite "/images/decal/snow/igloo_exit/igloo_bg.png")
+      (x 21664)
       (y 256)
     )
     (decal
       (z-pos 100)
-      (sprite "/images/decal/snow/igloo-fg.png")
-      (x 21744)
+      (sprite "/images/decal/snow/igloo_exit/igloo_fg.png")
+      (x 21664)
       (y 256)
     )
     (firefly
