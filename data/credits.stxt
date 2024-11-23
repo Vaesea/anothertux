@@ -39,6 +39,10 @@
       (name "BLuRry")
       (info (_ "The song named BLuRry XMas Jam. It's from Modarchive.org"))
     )
+	(person
+      (name "JAM")
+      (info (_ "The song named Merry Christmas. It's from Modarchive.org"))
+    )
     (blank)
 	(person
       (name "The_Whim")

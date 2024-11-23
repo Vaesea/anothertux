@@ -1,6 +1,7 @@
 == Images ==
 
 Most images were created either by grumbel or gwater. Check the log for details.
+The new images in AnotherTux are either from the SuperTux Media repository on GitHub, or made by Vaesea.
 
 * images/background/icecliffs/icecliffs-*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
 * images/background/block-snow-*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
@@ -12,12 +13,11 @@ Most images were created either by grumbel or gwater. Check the log for details.
 * images/engine/editor/sparkle-file.png - Semphris, licensed CC-BY 4.0 - CONTAINS WORK BY FortAwesome/FontAwesome (the file logo), licensed under CC-BY 4.0
 * images/worldmap/shared/rocky_paths[-editor].png - Semphris, released under CC0
 * images/objects/conveyor_belt/* - submitted by RodirodDude CC BY-NC 4.0
+* images/decals/snowtree*.png - from the SuperTux Media Repository, https://github.com/SuperTux/media, licensed under whatever license it's under, the license is unclear.
 
 == Levels ==
 
-The license should be include in the file itself.
-
-Contrib levels are so old that they have no specific license, but they should be redistributable along with the rest of SuperTux.
+The license should be included in the file itself.
 
 Test levels are created by SuperTux developers to test specific code and so are under the GPL.
 
@@ -27,7 +27,7 @@ License should be included with them.
 
 == Music ==
 
-* chipdiskoremix.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang, remix (chipdiskoremix.ogg) by Sophie "Vaesea" Ball, based on a midi by Nathan "Chitan" Lieb, licensed under CC-BY-SA + GPL
+* chipdiskoremix.ogg - Mortimer's Chipdisko by Lukas Nystrand as Mortimer Twang, remix (chipdiskoremix.ogg) by Sophie "Vaesea" Ball, based on a midi by Nathan "Chitan" Lieb, licensed under CC-BY-SA + GPL and/or whatever the midi is licensed under.
 
 * cave.ogg - By Sophie "Vaesea" Ball, licensed under CC-BY-SA-4.0, GPL v3
 
@@ -58,6 +58,8 @@ License should be included with them.
 * blurry_xmas_jam.ogg - By BLuRry on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=139150, licensed under CC-BY-SA-4.0
 
 * 69027-at_the_top.ogg - By Zilly Mike on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=169999, licensed under CC-BY-4.0
+
+* merrychritstmas.ogg - By JAM on modarchive.org, https://modarchive.org/index.php?request=view_by_moduleid&query=179409, licensed under one of these https://creativecommons.org/publicdomain/
 
 
 == Scripts ==
