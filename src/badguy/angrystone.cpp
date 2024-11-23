@@ -199,7 +199,7 @@ AngryStone::unfreeze(bool melt)
 bool
 AngryStone::is_freezable() const
 {
-  return true;
+  return false;
 }
 
 bool
