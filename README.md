@@ -66,7 +66,11 @@ You are allowed to use anything from this mod in your mods, games, animations, w
 
 ## QUESTIONS
 
-If you have a question, and you want to tell me about it, please contact me using Discord.
+If you have a question, and you want to tell me about it, please contact me using Discord, social media or a Matrix Client.
+
+DISCORD:
+
+vaesea (If the display name is Vaesea and the bio says "Also known as EggsAndBakey.", then it's me)
 
 MATRIX:
 
