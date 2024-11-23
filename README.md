@@ -28,7 +28,7 @@ World 2 is Giant Sewers (GS Castle will be based on entering pipes and swimming)
 
 World 3 is Poisonous Desert (PD Castle will be based on rising poison) (PD Boss is undecided but might be a poison monster thingy)
 
-World 4 is Huge Airship (HA Castle will be based on little fighting arenas and non-dangerous trolls like Pick A Door (but good) and places where you have to fight enemies like Captain Snowballs or whatever) (HA Boss is Capto, which is a Captain Snowball but better. He's a more difficult reskin of the Yeti with the Yeti's Pinch Mode)
+World 4 is Crystal Cave (The final level of it is not a castle, instead, it will have the player collecting crystals and getting the Super Flower, which allows Tux to shoot blue fire that can literally just kill anything (not including bosses), however, getting hit while being "Super Tux" will turn Tux into Small Tux)
 
 World 5 is Mountain Mines (MM Castle will be based on walljumping and climbable objects) (MM Boss will either be an absolutely GIANT owl or a Grizzly Bear) (Giant Owl would work by sending other Owls to drop skydives and then it'll dive down like a Zeekling to attack Tux. It's pinch mode will be it flying away {which means you have to climb more mountain to get to it} and then it'll do it's diving down thing when Tux gets there) (Grizzly Bear would work by throwing various enemies at Tux while hiding behind a wall, but then that wall would get revealed and it'd only take 1 hit to defeat it, however, there'd be multiple different phases anyways)
 
@@ -66,7 +66,7 @@ You are allowed to use anything from this mod in your mods, games, animations, w
 
 ## QUESTIONS
 
-If you have a question, and you want to tell me about it, please contact me using a Matrix client. Personally, I use Element. Do NOT contact me using Discord, as it will waste your time since I have already started deleting the Discord accounts I made that I have access to. You can also contact me using my social media, however, you will get a quicker response if you use a Matrix client.
+If you have a question, and you want to tell me about it, please contact me using Discord.
 
 MATRIX:
 
