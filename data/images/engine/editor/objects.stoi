@@ -41,6 +41,14 @@
  )
 
  (objectgroup
+  (name (_"Pipe Badguys"))
+  (worldmap #f)
+  (object
+    (class "flyingpipe")
+    (icon "images/creatures/pipebadguys/flying_pipe/fp-0.png"))
+ )
+
+ (objectgroup
   (name (_"Misc Enemies"))
   (worldmap #f)
   (object
