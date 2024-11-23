@@ -24,6 +24,7 @@ class FlyingPipe final : public BadGuy
 public:
   FlyingPipe(const ReaderMapping& reader);
 
+  virtual std::string get_overlay_size() const override { return "3x3"; }
   virtual void initialize() override;
   virtual void activate() override;
   virtual void active_update(float dt_sec) override;
@@ -34,6 +35,10 @@ public:
   virtual std::string get_display_name() const override { return display_name(); }
   virtual GameObjectClasses get_class_types() const override { return BadGuy::get_class_types().add(typeid(FlyingPipe)); }
   virtual bool is_snipable() const override { return true; }
+  virtual void freeze() override;
+  virtual void unfreeze(bool melt = true) override;
+  virtual bool is_freezable() const override;
+  virtual bool is_flammable() const override;
 
 protected:
   virtual bool collision_squished(GameObject& object) override;

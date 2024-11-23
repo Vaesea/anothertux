@@ -107,6 +107,31 @@ FlyingPipe::active_update(float dt_sec)
 
 }
 
+void
+FlyingPipe::freeze()
+{
+  BadGuy::freeze();
+  m_physic.enable_gravity(true);
+}
+
+void
+FlyingPipe::unfreeze(bool melt)
+{
+  BadGuy::unfreeze(melt);
+}
+
+bool
+FlyingPipe::is_freezable() const
+{
+  return false;
+}
+
+bool
+FlyingPipe::is_flammable() const
+{
+  return false;
+}
+
 std::vector<Direction>
 FlyingPipe::get_allowed_directions() const
 {
