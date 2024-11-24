@@ -248,7 +248,7 @@ GameObjectFactory::init_factories()
   add_factory<YetiStalactite>("yeti_stalactite");
   add_factory<Zeekling>("zeekling", OBJ_PARAM_DISPENSABLE);
   add_factory<MrRocket>("mrrocket", OBJ_PARAM_DISPENSABLE);
-  add_factory<FlyingPipe>("flyingpipe", OBJ_PARAM_DISPENSABLE);
+  add_factory<FlyIngPipe>("flyingpipe", OBJ_PARAM_DISPENSABLE);
   m_adding_badguys = false;
 
   // Other objects.
