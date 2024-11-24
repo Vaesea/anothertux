@@ -1,6 +1,8 @@
 == Images ==
 
-Most images were created either by grumbel or gwater. Check the log for details.
+Most images from the original SuperTux were created either by Grumbel, Gwater, Alzter or RustyBox.
+Check the log for details.
+
 The new images in AnotherTux are either from the SuperTux Media repository on GitHub, or made by Vaesea.
 
 * images/background/icecliffs/icecliffs-*.png - Jason Lavallée, dual-licensed: GPL version 2 or later and CC-BY-SA
@@ -14,6 +16,7 @@ The new images in AnotherTux are either from the SuperTux Media repository on Gi
 * images/worldmap/shared/rocky_paths[-editor].png - Semphris, released under CC0
 * images/objects/conveyor_belt/* - submitted by RodirodDude CC BY-NC 4.0
 * images/decals/snowtree*.png - from the SuperTux Media Repository, https://github.com/SuperTux/media, licensed under whatever license it's under, the license is unclear.
+* images/tiles/stone/main.png + images/tiles/stone/connect.png - GIMP (Gnu Image Manipulation Program), Sophie "Vaesea" Ball, https://www.gimp.org/, licensed under GNU GPL v3 + Later versions of the GNU GPL. The dark stuff on the edges of these tiles aren't in the original "slate" pattern, and it's also blurred, but the images do use the slate pattern.
 
 == Levels ==
 
