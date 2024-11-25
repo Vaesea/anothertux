@@ -38,7 +38,7 @@ World 3 is Burning Desert (Poisonous Desert but with lava instead of poison) (BD
 
 World 4 is Crystal Cave, but in the past, and only 1 level this time as Tux finds a shortcut) (There would be no boss this time, but Tux would see Nolok time travelling back to the present, so Tux would follow Nolok to the present again)
 
-## WORLDS (PRESENT 2, ANOTHERTUX UNIVERSE)
+## WORLDS (PRESENT 2)
 
 World 1 / World 9 / World 5 is Nolok Swamp (NS Boss is Nolok, and he is the final boss. Nolok would be like a combination of the Ghost Tree, with the roots, and the Yeti, with how Nolok would work. Nolok would have 2 phases, both with 5 lives. Phase 1 would be like fighting an entire factory level and phase 2 would be like fighting the Yeti and the Ghost Tree (or more accurately, an invincible, invisible Root Sapling))
 
@@ -47,13 +47,21 @@ There might be another mod sorta based on AnotherTux but it'd be about the vario
 ## WORLDS (POSSIBLE ANOTHERTUX 2?)
 
 World Idea - Fluffy Clouds
+
 World Idea - Christmas Island (AnotherTux version)
+
 World Idea - Cursed Forest
+
 World Idea - Huge Airship
+
 World Idea - Aquatic Cave
+
 World Idea - Savanna Island
+
 World Idea - Bonus Planet
+
 World Idea - Metal Beach
+
 World Idea - Burned Jungle
 
 ## DISCLAIMERS
