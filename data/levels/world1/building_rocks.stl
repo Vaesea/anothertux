@@ -101,14 +101,14 @@
     )
     (decal
       (z-pos -20)
-      (sprite "/images/decal/snow/igloo-bg.png")
-      (x 10832)
+      (sprite "/images/decal/snow/igloo_exit/igloo_bg.png")
+      (x 10848)
       (y 672)
     )
     (decal
       (z-pos 100)
-      (sprite "/images/decal/snow/igloo-fg.png")
-      (x 10928)
+      (sprite "/images/decal/snow/igloo_exit/igloo_fg.png")
+      (x 10848)
       (y 672)
     )
     (fish-jumping

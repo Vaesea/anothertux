@@ -56,7 +56,7 @@ ObjectFactory::get_display_name(const std::string& name) const
   if (it == factories.end())
   {
     std::stringstream msg;
-    msg << "No factory for object '" << name << "' found. Unable to get display name.";
+    msg << "No factory for object '" << name << "' found. Unable to get display name. Maybe try adding it to Game Object Factory dumbass.";
     throw std::runtime_error(msg.str());
   }
   else
